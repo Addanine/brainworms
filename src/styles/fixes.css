@@ -1,0 +1,2298 @@
+/* CSS fixes for React version to achieve parity with original */
+
+/* Enable smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add subtle gradient background */
+body {
+  background: linear-gradient(to bottom, 
+    #d6daf0 0px,      /* Reply card color at top */
+    #eef2ff 1000px   /* Original background color after 1000px */
+  ) !important;
+  background-attachment: fixed !important; /* Keep gradient fixed while scrolling */
+}
+
+/* Reduce top padding in index posts */
+.post .postMessage#m2,
+.post .postMessage#m26255559 {
+  padding-top: 5px;
+}
+
+/* Align OP post warning text with top of image */
+#dynamicContent .post.op .postMessage#m26255548 {
+  padding-top: 20px;
+}
+
+/* Reduce spacing around OP post image on main page */
+#dynamicContent .post.op .file {
+  margin-right: 10px !important; /* Reduced from 20px */
+  margin-bottom: 0px !important; /* Reduced from 5px */
+}
+
+/* Reduce left padding from Index post on main page to match category pages - DESKTOP ONLY */
+@media (min-width: 481px) {
+  #dynamicContent .post.reply .postMessage#m26255559 {
+    padding-left: 0px !important;
+  }
+}
+
+/* Restore padding on mobile for index post */
+@media (max-width: 480px) {
+  #dynamicContent .post.reply .postMessage#m26255559 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+/* Force proper clearing after OP posts on category pages */
+.page-content .opContainer::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Ensure opContainer has proper stacking context */
+.opContainer {
+  position: relative;
+  z-index: 1;
+  overflow: visible !important;
+}
+
+/* Ensure OP posts clear their floats */
+.page-content .post.op {
+  overflow: visible !important;
+}
+
+/* Ensure OP posts on main page also have visible overflow */
+.post.op {
+  overflow: visible !important;
+}
+
+/* Align OP post text with image like individual posts */
+.page-content .post.op:has(.file) .postMessage {
+  padding-top: 20px;
+}
+
+/* Ensure consistent image margins for OP posts */
+.page-content .post.op .file {
+  margin-right: 20px !important;
+}
+
+/* Remove extra margin from OP post fileThumbs to match reply posts */
+.page-content .post.op .fileThumb {
+  margin-left: 20px !important;
+  margin-right: 0 !important;
+}
+
+/* Align OP post file info with name block */
+.page-content .post.op .file .fileText {
+  margin-left: 20px;
+  margin-bottom: 10px; /* Add spacing below file metadata */
+}
+
+/* Align OP post file info on main index page */
+#dynamicContent .post.op .file .fileText {
+  margin-left: 20px;
+  margin-bottom: 10px; /* Add spacing below file metadata */
+}
+
+/* Fix post container spacing */
+.postContainer {
+  margin-bottom: 1.5em;
+  margin-right: 10px;
+  position: relative;
+  margin-left: 20px;
+  overflow: visible !important;
+}
+
+/* Less spacing on dynamic content pages */
+#dynamicContent .postContainer {
+  margin-bottom: 1em;
+}
+
+/* Fix horizontal rules vertical padding */
+.postMessage hr {
+  margin: 2em 0;
+}
+
+/* More padding for hr elements on JSON homepage */
+#dynamicContent .postMessage hr {
+  margin: 1.5em 0;
+}
+
+/* Keep visited link colors consistent */
+a:visited {
+  color: inherit;
+}
+
+/* Ensure quote links stay red */
+.quotelink:visited {
+  color: #d00 !important;
+}
+
+/* Keep term and category links consistent */
+.term-link:visited,
+.category-link:visited {
+  color: inherit;
+}
+
+/* Style for auto-linked terms within definitions (but not greentext or related links) */
+.postMessage .term-link:not(.quote .term-link):not(.related-term-link) {
+  color: #0f0c5d;
+}
+
+.postMessage .term-link:hover:not(.quote .term-link):not(.related-term-link) {
+  color: #0f0c5d;
+  text-decoration: underline;
+}
+
+/* Style for metadata labels to match term name color */
+.postMessage .metadata-label {
+  color: #117743;
+  font-weight: 700;
+}
+
+/* Add vertical spacing after green term names */
+.quote {
+  margin-bottom: 0.5em;
+  display: inline-block;
+  color: #789922 !important;
+}
+
+/* Quote style specifically for index posts */
+#dynamicContent .quote {
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+/* Quote style for term detail pages - normal weight */
+.page-content .quote {
+  font-weight: normal;
+  font-size: 1.3em;
+}
+
+/* Keep greentext links green */
+.postMessage .quote .term-link {
+  color: #789922;
+}
+
+.postMessage .quote .term-link:hover {
+  color: #789922;
+  text-decoration: underline;
+}
+
+/* Underline all links */
+a {
+  text-decoration: underline !important;
+}
+
+/* Board title styling */
+.boardTitle {
+  margin-top: 40px;  /* Add vertical spacing between banner and title */
+  padding-bottom: 1em;
+  border-bottom: none;
+  margin-bottom: 1em;
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* Add gradient divider below board title */
+.boardTitle::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(to right, transparent 0%, #b7c5d9 10%, #b7c5d9 90%, transparent 100%);
+}
+
+/* Post info spacing adjustments */
+.postInfo {
+  margin-bottom: 5px;
+  padding-top: 5px;
+}
+
+/* Make date and post number smaller like file info */
+.postInfo .dateTime,
+.postInfo .postNum {
+  font-size: 85%;
+}
+
+/* Add more spacing between postInfo elements */
+.postInfo input[type="checkbox"] {
+  margin-right: 3px;
+}
+
+.postInfo .subject {
+  margin-right: 3px;
+}
+
+/* Remove margin from OP post subject on main page for consistent spacing */
+#dynamicContent .post.op .postInfo .subject {
+  margin-right: 0;
+}
+
+.postInfo .nameBlock {
+  margin-right: 0;
+}
+
+.postInfo .dateTime {
+  margin-right: 0;
+}
+
+/* Reply post padding */
+div.reply {
+  padding: 2px;
+}
+
+/* All posts on index page - set proper desktop padding */
+body:not(.has-hash) #dynamicContent .post.reply .postMessage,
+body:not(.has-hash) #dynamicContent .post.op .postMessage {
+  padding-left: 25px;  /* Add consistent left padding for desktop */
+}
+
+/* Mobile-specific padding for main page posts */
+@media (max-width: 480px) {
+  body:not(.has-hash) #dynamicContent .post.reply .postMessage,
+  body:not(.has-hash) #dynamicContent .post.op .postMessage {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  
+  /* Text-only posts on mobile */
+  body:not(.has-hash) #dynamicContent .post.reply:not(:has(.file)) .postMessage {
+    padding: 20px 5px 5px 5px !important; /* Keep top padding for proper spacing between term name and definition */
+  }
+}
+
+/* Fix text minimum width for proper wrapping */
+.postMessage {
+  min-width: 250px;
+  padding: 0 25px 0 25px; /* Reduced left padding from 45px to 25px */
+}
+
+/* Reset left padding on category and term pages */
+.page-content .post .postMessage {
+  padding-left: 0px !important;
+}
+
+/* Restore padding for index links on category pages */
+.page-content .post blockquote.postMessage.index-links {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+/* Fix index card padding on main page - override custom.css rule that removes padding */
+body:not(.has-hash) #dynamicContent .post.reply .postMessage.index-links {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+/* Also reset left padding for gallery page posts */
+.postContainer[data-full-i-d^="gallery"] .post .postMessage {
+  padding-left: 20px !important;
+  margin-left: 0 !important;
+  padding-top: 5px !important;
+}
+
+/* Add top padding for posts without images */
+.post:not(:has(.file)) .postMessage {
+  padding-top: 20px;
+}
+
+/* Reduce blockquote left margin for posts without images on category/term pages */
+.page-content .post:not(:has(.file)) blockquote.postMessage {
+  margin-left: 20px;
+}
+
+/* Add bottom padding to all posts on category/term pages */
+.page-content .post blockquote.postMessage {
+  padding-bottom: 10px;
+}
+
+/* Fix navigation link styling */
+.navLinks a {
+  color: #34345c;
+  text-decoration: underline;
+}
+
+.navLinks a:hover {
+  color: #d00 !important;
+}
+
+/* Back to Index links styling */
+.quotelink {
+  color: #d00 !important;
+  text-decoration: underline;
+}
+
+.quotelink:hover {
+  color: #d00 !important;
+}
+
+/* Fix header-bar link colors */
+#header-bar a {
+  color: #34345c;
+  text-decoration: underline;
+}
+
+#header-bar a:hover {
+  color: #d00 !important;
+}
+
+/* Adjust header-bar padding for larger icons */
+#header-bar {
+  padding: 5px 0;
+}
+
+/* Increase font size for brackets and spaces in header navigation */
+#header-bar .nav-left,
+#header-bar .nav-right {
+  font-size: 18px;
+}
+
+/* Enable sticky header when html has fixed class */
+html.fixed #header-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  box-shadow: -5px 1px 10px rgba(0, 0, 0, 0.20);
+}
+
+/* Add padding to body when header is fixed */
+html.fixed body {
+  padding-top: 35px; /* Adjusted for 20px icons with 5px padding */
+}
+
+/* Navigation links that should be visible */
+.navLinks.desktop {
+  font-size: 9pt;
+  margin: 5px 0;
+}
+
+.navLinks.navLinksBot.desktop {
+  font-size: 9pt;
+  margin: 5px 0;
+}
+
+/* Hide specific elements */
+.mobile.hidden {
+  display: none !important;
+}
+
+/* Post hover effects - applied to the actual post card */
+.post.reply {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.post.reply:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 2; /* Ensure hovered posts don't cover icons from other posts */
+}
+
+/* Ensure proper float layout for posts with images */
+div.post div.file {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+
+/* File thumb margins */
+.fileThumb {
+  margin-bottom: 0 !important;
+}
+
+/* Align text with top of image on term detail pages */
+.page-content .post.reply:has(.file) .postMessage {
+  padding-top: 20px;
+  padding-right: 0px;
+}
+
+/* Term detail pages without images - reduce right padding */
+.page-content .post.reply:not(:has(.file)) .postMessage {
+  padding-right: 0px;
+}
+
+/* Override fileThumb margins on term detail pages */
+.page-content .post.reply .fileThumb {
+  margin-right: 0px !important;
+}
+
+/* Fix reply post display */
+div.reply {
+  display: inline-block !important;
+  max-width: 100%;
+  position: relative; /* Create stacking context for z-index to work properly */
+  z-index: 1; /* Base z-index for reply posts */
+  overflow: visible !important;
+}
+
+/* Block Formatting Context to prevent text flowing under images */
+.post:has(.file) .postMessage {
+  overflow: hidden; /* Creates BFC */
+}
+
+/* Image zoom styles */
+.fileThumb img.zoom {
+  max-width: 100% !important;
+  height: auto !important;
+  cursor: zoom-out;
+  display: block;
+}
+
+.fileThumb img:not(.zoom) {
+  cursor: zoom-in;
+}
+
+/* Side arrows styling */
+.replacedSideArrows {
+  color: #b7c5d9;
+  position: absolute;
+  left: 2px;
+  margin-top: 0;
+}
+
+/* Hide reply button styling (though it's empty) */
+.hide-reply-button {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+}
+
+/* Subject and name block styling improvements */
+.postInfo .subject {
+  color: #0f0c5d;
+  font-weight: 700;
+}
+
+.postInfo .nameBlock .name {
+  color: #117743;
+  font-weight: 700;
+  /* Removed font-size override to allow post-name-prominent and post-name-regular classes to work */
+}
+
+/* Post number styling */
+.postInfo .postNum a {
+  text-decoration: none;
+  color: #000;
+}
+
+.postInfo .postNum a:hover {
+  color: #d00 !important;
+}
+
+/* File info styling */
+.fileText {
+  font-size: 85%;
+  color: #666;
+  margin-bottom: 10px; /* Add spacing below file metadata */
+}
+
+/* Add padding to dynamicContent to match page-content appearance */
+#dynamicContent {
+  padding: 0 15px;
+}
+
+/* Also add padding to page-content for consistency */
+.page-content {
+  padding: 0 15px;
+}
+
+/* Loading states */
+.loading-indicator {
+  text-align: center;
+  padding: 50px;
+}
+
+.loading-spinner {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #b7c5d9;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 20px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-text {
+  color: #707070;
+  font-style: italic;
+}
+
+/* Horizontal rules styling with fade out effect */
+hr {
+  border: none !important;
+  border-top: none !important;
+  height: 1px;
+  margin: 10px 0;
+  background: linear-gradient(to right, transparent 0%, #b7c5d9 10%, #b7c5d9 90%, transparent 100%) !important;
+}
+
+/* Thread container */
+.thread {
+  margin: 0;
+  clear: both;
+}
+
+/* OP container specific styles */
+.opContainer {
+  display: inline;
+}
+
+/* Fix board width on wide screens */
+@media (min-width: 768px) {
+  .board {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Tooltip styles */
+.tooltip-container {
+  pointer-events: none;
+  z-index: 1000;
+  opacity: 0;
+  animation: tooltipFadeIn 0.2s ease-out forwards;
+  will-change: opacity;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+}
+
+@keyframes tooltipFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(2px) translateZ(0);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) translateZ(0);
+  }
+}
+
+.tooltip-container .preview {
+  background-color: #d6daf0;
+  border: 1px solid #b7c5d9 !important;
+  border-right-width: 2px !important;
+  border-bottom-width: 2px !important;
+  max-width: 400px;
+  min-width: 200px;
+  min-height: 60px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.tooltip-container .preview .postInfo {
+  padding: 2px 5px;
+  font-size: 11px;
+}
+
+.tooltip-container .preview .postMessage {
+  padding: 5px 10px;
+  font-size: 11px;
+  margin: 0;
+}
+
+.tooltip-container .preview .postMessage strong {
+  color: #117743;
+}
+
+/* Gallery styles - Masonry layout */
+.gallery-container {
+  column-count: 5;
+  column-gap: 15px;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+@media (max-width: 1400px) {
+  .gallery-container {
+    column-count: 4;
+  }
+}
+
+@media (max-width: 1200px) {
+  .gallery-container {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-container {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-container {
+    column-count: 1;
+  }
+}
+
+.gallery-item {
+  background-color: #d6daf0;
+  border: 1px solid #b7c5d9;
+  border-radius: 3px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  break-inside: avoid;
+  margin-bottom: 15px;
+  display: inline-block;
+  width: 100%;
+}
+
+.gallery-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-link {
+  display: block;
+  text-decoration: none !important;
+  color: inherit;
+}
+
+.gallery-image {
+  width: 100%;
+  display: block;
+  background-color: #eef2ff;
+  overflow: hidden;
+}
+
+.gallery-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery-caption {
+  padding: 12px;
+  font-size: 13px;
+  border-top: 1px solid #b7c5d9;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.gallery-caption strong {
+  color: #117743;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.gallery-definition {
+  color: #000;
+  margin-bottom: 6px;
+  text-decoration: none !important;
+}
+
+.gallery-category {
+  color: #666;
+  font-size: 11px;
+  font-style: italic;
+}
+
+.gallery-category-link {
+  text-decoration: none !important;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.gallery-category-link:hover .gallery-category {
+  color: #d00;
+  text-decoration: underline;
+}
+
+/* Gallery hover states - must come after base styles */
+.gallery-link:hover .gallery-caption strong {
+  color: #d00 !important;
+}
+
+.gallery-link:hover .gallery-definition {
+  color: #d00;
+  text-decoration: underline !important;
+}
+
+/* Ensure text wrapping on index page posts */
+body:not(.has-hash) #dynamicContent .post.reply .file {
+  float: left;
+  /* All other styles inherited from custom.css */
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  /* Stack images above text on mobile */
+  div.post div.file {
+    float: none !important;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+}
+
+/* Mobile-specific image centering for main page posts */
+@media (max-width: 480px) {
+  /* Remove padding from reply divs on main page for proper image centering */
+  #dynamicContent .post.reply {
+    padding: 0 !important;
+  }
+  
+  /* But ensure text content has proper spacing */
+  #dynamicContent .post.reply blockquote,
+  .page-content .post.reply blockquote {
+    padding-top: 20px !important; /* Space between term name and definition */
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding-bottom: 5px !important;
+  }
+  
+  /* Ensure posts take full width on mobile */
+  #dynamicContent .postContainer {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  /* The rules below were incorrectly centering images and causing layout issues. */
+  /* Removing them will make main page posts match category/term pages on mobile. */
+
+  /* New rule: remove side margins so images fill full width */
+  #dynamicContent .post.reply .fileThumb {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    float: none !important;
+    display: block !important;
+  }
+  #dynamicContent .post.reply .fileThumb img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
+  /* Restore padding for index links on category pages in mobile */
+  .page-content .post blockquote.postMessage.index-links {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+/* Fade in animation for content */
+@keyframes fadeIn {
+  from {
+    opacity: 0.8;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply fade in to page content */
+.page-content.loaded > * {
+  animation: fadeIn 0.2s ease-out;
+  animation-fill-mode: backwards;
+}
+
+/* Lightbox styles */
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 10000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.lightbox-overlay.active {
+  display: flex;
+}
+
+.lightbox-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 36px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.lightbox-close:hover {
+  opacity: 1;
+}
+
+/* Unified card container for lightbox */
+.lightbox-card {
+  background-color: #d6daf0;
+  border: 1px solid #b7c5d9;
+  border-radius: 3px;
+  /* width is now set by JS */
+  max-width: 90vw; /* Fallback and safety net */
+  display: flex; /* Changed from inline-grid */
+  flex-direction: column;
+  transition: width 0.2s ease-out; /* Smooth transition */
+}
+
+.lightbox-image-wrapper {
+  background-color: #eef2ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  /* The image will define the wrapper's dimensions */
+}
+
+.lightbox-image {
+  max-width: 100%;
+  max-height: calc(80vh - 100px); /* Leave space for info */
+  display: block;
+  object-fit: contain;
+  /* width and height are auto to maintain aspect ratio */
+}
+
+/* Navigation buttons positioned inside the info section */
+.lightbox-info .lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.lightbox-info .lightbox-prev {
+  left: 10px;
+}
+
+.lightbox-info .lightbox-next {
+  right: 10px;
+}
+
+.lightbox-info {
+  padding: 12px 80px;
+  text-align: center;
+  border-top: 1px solid #b7c5d9;
+  background-color: #d6daf0;
+  position: relative;
+  width: 100%; /* Fill the card width */
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-wrap: break-word; /* Ensure text wraps */
+}
+
+.lightbox-term {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+  color: #117743;
+  display: block;
+}
+
+.lightbox-term a {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+.lightbox-term a:hover {
+  color: #d00;
+  text-decoration: underline !important;
+}
+
+.lightbox-definition {
+  margin: 0 0 6px 0;
+  line-height: 1.4;
+  color: #000;
+  font-size: 13px;
+}
+
+.lightbox-definition a {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+.lightbox-definition a:hover {
+  color: #d00;
+  text-decoration: underline !important;
+}
+
+/* Lightbox navigation buttons */
+.lightbox-nav {
+  background: #d6daf0;
+  border: 1px solid #b7c5d9;
+  border-right-width: 2px;
+  border-bottom-width: 2px;
+  color: #34345c;
+  font-size: 28px;
+  font-weight: bold;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  text-decoration: none;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.lightbox-nav:hover {
+  background: #eef2ff;
+  color: #d00;
+}
+
+/* Counter */
+.lightbox-counter {
+  font-size: 11px;
+  color: #666;
+  margin-bottom: 8px;
+  font-style: italic;
+}
+
+/* Mobile adjustments for lightbox */
+@media (max-width: 768px) {
+  .lightbox-close {
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+  }
+  
+  .lightbox-content {
+    max-width: 100%;
+  }
+  
+  .lightbox-info {
+    padding: 10px 15px;
+  }
+  
+  .lightbox-nav {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+  }
+  
+  .lightbox-info {
+    padding: 12px 70px;
+  }
+  
+  .lightbox-info .lightbox-prev {
+    left: 5px;
+  }
+  
+  .lightbox-info .lightbox-next {
+    right: 5px;
+  }
+  
+  .lightbox-card {
+    max-width: 98vw;  /* Increased from 80vw to use more screen space */
+  }
+  
+  .lightbox-image {
+    max-height: calc(80vh - 120px);
+  }
+}
+
+/* Header-bar menu styling */
+#custom-board-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Ensure the left and right nav items don't have extra spacing */
+.nav-left {
+  margin-right: auto; /* Pushes the right-side content all the way to the right */
+}
+
+.nav-right {
+  margin-left: auto; /* Pushes the left-side content all the way to the left */
+}
+
+/* Fix for gallery images */
+.term-card-gallery-image {
+    width: 100%;
+}
+
+/* Style Lucide icons in navigation */
+.nav-right svg,
+.nav-left svg {
+    display: inline-block;
+    stroke: currentColor;
+    vertical-align: middle;
+}
+
+/* ========================================
+   COMPREHENSIVE MOBILE RESPONSIVENESS FIXES
+   ======================================== */
+
+/* Global box-sizing fix for predictable element sizing */
+*, *::before, *::after {
+  box-sizing: border-box !important;
+}
+
+/* ========================================
+   BANNER STYLING & RESPONSIVENESS
+   All banner styles are consolidated here to override
+   the base styles from unified.css
+   ======================================== */
+
+/* Fix Banner Container - Restore original dimensions */
+#bannerCnt {
+  max-width: 300px !important;  /* Original max width */
+  width: 100% !important;       /* Full width up to max */
+  display: inline-block;
+  border: 1px solid #b7c5d9 !important;  /* Subtle border matching theme */
+  border-radius: 3px;
+  /* overflow: hidden removed to prevent border clipping */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  background-color: #eef2ff;  /* Fallback background */
+  padding-bottom: 2px;  /* Space for image bottom border */
+}
+
+/* Banner hover effect */
+#bannerCnt:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Banner image styling */
+.brainworm-banner {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  border: 1px solid #000; /* Add 1px black border to image */
+  vertical-align: bottom; /* Prevent baseline gap */
+}
+
+/* Subtle opacity change on hover */
+.brainworm-banner:hover {
+  opacity: 0.9;
+}
+
+/* Fix WARNING text wrapping */
+.warning {
+  word-wrap: normal !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important; /* Prevent breaking words */
+  white-space: normal !important;
+  max-width: 100% !important;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  font-weight: bold !important;
+  text-shadow: none !important;
+  color: #af0a0f !important;
+}
+
+/* Mobile-specific fixes */
+@media (max-width: 768px) {
+  /* Hide page counter on mobile - it's empty and causes layout issues */
+  #page-counter {
+    display: none !important;
+  }
+  
+  /* Hide notifications div on mobile - it's empty and takes up space */
+  #notifications {
+    display: none !important;
+  }
+  
+  /* Hide scroll marker on mobile */
+  #scroll-marker {
+    display: none !important;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Ensure consistent z-index behavior on mobile */
+  /* Sticky header - highest priority */
+  html.fixed #header-bar {
+    z-index: 100 !important;
+  }
+  
+  /* Tooltips */
+  .tooltip-container {
+    z-index: 1000 !important;
+  }
+  
+  /* Lightbox */
+  .lightbox-overlay {
+    z-index: 10000 !important;
+  }
+  
+  /* Icons */
+  .category-icon,
+  .worms-icon {
+    z-index: 21 !important;
+  }
+  
+  .category-icon:hover,
+  .worms-icon:hover {
+    z-index: 22 !important;
+    transform: none !important; /* Disable scale effect on mobile */
+  }
+  
+  /* Disable all icon hover effects on mobile */
+  .category-icon-link:hover .category-icon {
+    transform: none !important;
+    cursor: default !important;
+  }
+  
+  .postInfo-icon {
+    z-index: 20 !important;
+  }
+  
+  /* Posts */
+  .opContainer {
+    z-index: 1 !important;
+    overflow: visible !important; /* Allow icons to scale beyond boundaries */
+  }
+  
+  div.reply {
+    z-index: 1 !important;
+    overflow: visible !important; /* Allow icons to scale beyond boundaries */
+  }
+  
+  .post.reply:hover {
+    z-index: 2 !important;
+  }
+  
+  /* Ensure all post containers allow overflow on mobile */
+  .post.op,
+  .postContainer,
+  .postInfo-with-icon {
+    overflow: visible !important;
+  }
+  
+  /* Center the banner container */
+  .boardBanner {
+    text-align: center;
+  }
+  
+  /* Banner mobile sizing */
+  #bannerCnt {
+    display: inline-block !important; /* Shrink to fit content */
+    width: auto !important; /* Don't expand to full width */
+    max-width: calc(100vw - 20px) !important;  /* Still respect viewport limits */
+    margin: 5px auto !important;  /* Center with auto margins */
+    border-radius: 2px;  /* Slightly smaller radius on mobile */
+  }
+  
+  /* Disable hover effects on mobile */
+  #bannerCnt:hover {
+    transform: none;
+    box-shadow: none;
+  }
+  
+  .brainworm-banner {
+    width: auto !important; /* Maintain aspect ratio */
+    max-width: 100% !important; /* Don't exceed container */
+    height: auto !important;
+  }
+  
+  /* Adjust board title font size on mobile */
+  .boardTitle {
+    font-size: 20px !important;  /* Smaller font on mobile */
+    letter-spacing: -1px !important;
+  }
+  
+  /* Prevent all horizontal overflow */
+  html, body {
+    overflow-x: hidden !important;
+    max-width: 100vw !important;
+  }
+  
+  /* Reduce side spacing to 5px on mobile */
+  #dynamicContent,
+  .page-content {
+    padding: 0 5px !important;
+  }
+  
+  /* Adjust body padding */
+  body {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+  
+  /* Remove post container left margin on mobile */
+  .postContainer {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  /* Fix all fixed-width elements */
+  .belowLeaderboard,
+  .aboveMidAd,
+  #blotter,
+  #postForm,
+  input[type="text"],
+  textarea,
+  .jla-it,
+  #captchaContainer,
+  table.exif,
+  div.posthover,
+  #search-box {
+    max-width: 100% !important;
+    width: auto !important;
+  }
+  
+  /* Fix whitespace issues that prevent text wrapping */
+  .fileText,
+  .atsb2018 td,
+  .dd-menu ul,
+  .name-col,
+  .file-col,
+  table.flashListing .subject {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+  
+  /* Ensure main content containers don't overflow */
+  .board,
+  .thread,
+  .opContainer,
+  .replyContainer,
+  .post,
+  .reply,
+  .postMessage {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+  
+  /* Fix input fields that might be too wide */
+  input[type="text"],
+  input[type="password"],
+  textarea,
+  #recaptcha_response_field {
+    max-width: calc(100% - 10px) !important;
+  }
+  
+  /* Ensure tables don't cause overflow */
+  table {
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    display: block !important;
+  }
+  
+  /* Fix text clipping on ALL pages */
+  .postMessage {
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    word-break: normal !important; /* Prevent breaking words in the middle */
+    hyphens: none !important; /* Prevent mid-word breaks */
+    min-width: auto !important; /* Remove minimum width constraint */
+  }
+  
+  /* Ensure proper padding on category/term pages (they already look good) */
+  .page-content .postMessage {
+    padding-right: 5px !important; /* Add right padding to prevent clipping */
+  }
+  
+  /* Handle posts with images */
+  .post:has(.file) .postMessage {
+    padding-right: 5px !important;
+  }
+}
+
+/* Fix reply post borders - show all four sides */
+div.reply {
+  border-left: 1px solid #b7c5d9 !important;
+  border-top: 1px solid #b7c5d9 !important;
+}
+
+/* Also fix highlighted/targeted replies */
+.reply:target, .reply.highlight {
+  border-left: 1px solid #ba9dbf !important;
+  border-top: 1px solid #ba9dbf !important;
+}
+
+/* Make category names bigger on main page IndexPostCard posts, but not the Index post */
+/* Removed font-size override - now handled by post-name-prominent class */
+#dynamicContent .postContainer[data-full-i-d^="lgbt."]:not([data-full-i-d="lgbt.2"]) .postInfo .nameBlock .name {
+  /* font-size: 1.8em !important; */
+}
+
+/* Category icon hover effects */
+.category-icon {
+  transition: transform 0.2s ease;
+  position: relative; /* Ensure proper positioning context */
+  z-index: 21; /* Above posts but below sticky header */
+}
+
+.category-icon:hover {
+  transform: scale(2);
+  z-index: 22; /* Higher on hover but still below sticky header */
+}
+
+/* Category icon link styles */
+.category-icon-link {
+  text-decoration: none !important;
+  display: inline-block;
+  line-height: 0;
+}
+
+.category-icon-link:hover .category-icon {
+  transform: scale(2);
+  cursor: pointer;
+}
+
+/* Make category page OP post titles same size as main page category titles */
+/* Removed font-size override - now handled by post-name-prominent class */
+.page-content .postContainer[data-full-i-d$=".intro"] .postInfo .subject {
+  /* font-size: 1.8em !important; */
+  color: #117743 !important; /* Match the green color of main page category names */
+}
+
+/* Make term names bigger on dedicated term pages only */
+/* Removed font-size override - now handled by post-name-prominent class */
+.page-content .postContainer[data-full-i-d$=".term1"] .postInfo .nameBlock .name {
+  /* font-size: 1.8em !important; */
+}
+
+/* ========================================
+   ICON POSITIONING - TOP RIGHT CORNER
+   ======================================== */
+
+/* PostInfo layout for posts with icons */
+.postInfo-with-icon {
+  position: relative !important;
+  width: 100% !important;
+  overflow: visible !important; /* Allow icons to overflow when scaled */
+}
+
+/* Container for left-aligned content (checkbox + title) */
+.postInfo-left {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Icon container for right alignment */
+.postInfo-icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 20; /* Above posts (1-2) but below sticky header (30) */
+}
+
+/* Adjust icon margins when positioned on right */
+.postInfo-icon .category-icon,
+.postInfo-icon .worms-icon {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Ensure worms icon also has proper z-index */
+.worms-icon {
+  position: relative;
+  z-index: 21;
+  transition: transform 0.2s ease;
+}
+
+.worms-icon:hover {
+  transform: scale(2);
+  z-index: 22;
+}
+
+/* ========================================
+   CURSOR STYLES FOR CONSISTENT BEHAVIOR
+   ======================================== */
+
+/* All links should show pointer cursor */
+a {
+  cursor: pointer !important;
+}
+
+/* Specific link types to ensure pointer cursor */
+.quotelink,
+.term-link,
+.category-link,
+.related-term-link,
+.navLinks a,
+#header-bar a,
+.postNum a,
+.fileText a {
+  cursor: pointer !important;
+}
+
+/* Gallery images that open lightbox should show zoom cursor */
+.gallery-image,
+.gallery-image img {
+  cursor: zoom-in !important;
+}
+
+/* Gallery text links should show pointer cursor */
+.gallery-link strong {
+  cursor: pointer !important;
+}
+
+/* Gallery category links should show pointer cursor */
+.gallery-category-link {
+  cursor: pointer !important;
+}
+
+/* Ensure file thumbnails maintain their zoom cursor behavior */
+.fileThumb {
+  cursor: zoom-in !important;
+}
+
+/* Override any conflicting styles for expandable images */
+.fileThumb img:not(.zoom) {
+  cursor: zoom-in !important;
+}
+
+.fileThumb img.zoom {
+  cursor: zoom-out !important;
+}
+
+/* ========================================
+   PREVENT MID-WORD BREAKS ON MOBILE
+   ======================================== */
+
+/* Global rule for all mobile devices to prevent mid-word breaks */
+@media (max-width: 768px) {
+  /* Prevent any element from breaking words in the middle */
+  * {
+    word-break: normal !important;
+    -webkit-hyphens: none !important;
+    -moz-hyphens: none !important;
+    -ms-hyphens: none !important;
+    hyphens: none !important;
+  }
+  
+  /* Ensure text wraps properly at word boundaries */
+  body, 
+  .postMessage, 
+  .quote, 
+  .reply, 
+  .post, 
+  blockquote,
+  .fileText,
+  .subject,
+  .name,
+  .teaser-col,
+  .fileInfo,
+  .gallery-link,
+  .definition-content,
+  .related-terms,
+  .secondary-category {
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+    word-break: normal !important;
+    -webkit-hyphens: none !important;
+    -moz-hyphens: none !important;
+    -ms-hyphens: none !important;
+    hyphens: none !important;
+  }
+}
+
+/* ========================================
+   DESKTOP FILE METADATA SPACING
+   ======================================== */
+
+/* Add padding around file metadata on desktop only */
+@media (min-width: 769px) {
+  /* File metadata container */
+  .fileText,
+  .file-info {
+    display: block;
+    padding-top: 3px !important;    /* Space between image and metadata */
+    padding-bottom: 5px !important;  /* Space below metadata */
+  }
+  
+  /* Ensure images have bottom margin for spacing */
+  .fileThumb {
+    margin-bottom: 3px !important;
+  }
+  
+  /* Alternative: Add margin-top to file info if fileThumb margin doesn't work */
+  .fileText,
+  .file-info {
+    margin-top: 3px !important;
+  }
+}
+
+/* ========================================
+   BRAINWORMS TRACKER STYLES
+   ======================================== */
+
+/* Tracker page specific styles */
+.tracker-link {
+  color: #34345c !important;
+}
+
+.tracker-nav-link {
+  color: #34345c !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+}
+
+.tracker-nav-link:hover {
+  color: #d00 !important;
+}
+
+.tracker-description {
+  color: #89a !important;
+  font-size: 0.9em !important;
+}
+
+/* Enhanced dataset stats display */
+.dataset-stats-box {
+  background: #f0f0f0 !important;
+  border: 2px solid #b7c5d9 !important;
+  border-radius: 4px;
+  padding: 12px !important;
+  margin: 10px 0 !important;
+  font-family: Arial, sans-serif !important;
+}
+
+.stats-header {
+  color: #0f0c5d !important;
+  font-weight: bold !important;
+  font-size: 12px !important;
+  margin-bottom: 8px !important;
+  text-align: center;
+  background: #d6daf0;
+  padding: 4px;
+  border-radius: 2px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 6px;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 8px;
+  background: #f8f8f8;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+}
+
+.stat-label {
+  color: #34345c !important;
+  font-weight: normal;
+  font-size: 11px !important;
+}
+
+.stat-value {
+  color: #d00 !important;
+  font-weight: bold !important;
+  font-size: 11px !important;
+  font-family: monospace;
+}
+
+/* Analysis placeholder styling */
+.analysis-placeholder {
+  background: #f0f0f0 !important;
+  border: 2px dashed #ccc !important;
+  padding: 20px !important;
+  margin: 10px 0 !important;
+  text-align: center !important;
+  border-radius: 4px !important;
+}
+
+.placeholder-chart {
+  color: #666 !important;
+  font-size: 1.1em !important;
+  line-height: 1.5 !important;
+}
+
+/* Chart container for when real charts are added */
+.chart-container {
+  background: #fff !important;
+  border: 1px solid #d9d9d9 !important;
+  padding: 15px !important;
+  margin: 10px 0 !important;
+  border-radius: 4px !important;
+}
+
+/* Timeline chart styles */
+.timeline-chart {
+  width: 100% !important;
+  height: 300px !important;
+}
+
+/* Statistics display */
+.stats-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+  gap: 15px !important;
+  margin: 15px 0 !important;
+}
+
+.stat-card {
+  background: #f5f5f5 !important;
+  border: 1px solid #ddd !important;
+  padding: 15px !important;
+  border-radius: 4px !important;
+  text-align: center !important;
+}
+
+.stat-number {
+  font-size: 2em !important;
+  font-weight: bold !important;
+  color: #34345c !important;
+  display: block !important;
+}
+
+.stat-label {
+  color: #666 !important;
+  font-size: 0.9em !important;
+  margin-top: 5px !important;
+}
+
+/* Mobile responsiveness for tracker */
+@media (max-width: 480px) {
+  .analysis-placeholder {
+    padding: 15px !important;
+    margin: 10px 5px !important;
+  }
+  
+  .placeholder-chart {
+    font-size: 0.95em !important;
+  }
+  
+  .stats-grid {
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+  
+  .stat-number {
+    font-size: 1.5em !important;
+  }
+}
+
+/* Enhanced tracker feature boxes */
+.tracker-feature-box {
+  background: #f9f9f9 !important;
+  border: 1px solid #d6daf0 !important;
+  border-radius: 6px !important;
+  padding: 15px !important;
+  margin: 15px 0 !important;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.1) !important;
+}
+
+.feature-header {
+  color: #34345c !important;
+  font-size: 1.1em !important;
+  margin-bottom: 8px !important;
+  border-bottom: 1px solid #e0e0e0 !important;
+  padding-bottom: 5px !important;
+}
+
+.feature-description {
+  color: #555 !important;
+  line-height: 1.4 !important;
+  margin-bottom: 10px !important;
+}
+
+.feature-list {
+  margin: 10px 0 !important;
+}
+
+.greentext {
+  color: #789922 !important;
+  font-weight: normal !important;
+}
+
+.feature-status {
+  margin-top: 10px !important;
+  padding-top: 8px !important;
+  border-top: 1px dashed #ccc !important;
+  font-size: 0.9em !important;
+}
+
+.status-badge {
+  display: inline-block !important;
+  padding: 2px 8px !important;
+  border-radius: 3px !important;
+  font-weight: bold !important;
+  font-size: 0.8em !important;
+  margin-right: 8px !important;
+}
+
+.status-badge.coming-soon {
+  background: #ffeb3b !important;
+  color: #333 !important;
+}
+
+.status-badge.in-progress {
+  background: #2196f3 !important;
+  color: white !important;
+}
+
+.status-badge.completed {
+  background: #4caf50 !important;
+  color: white !important;
+}
+
+/* Deadlink styling */
+.deadlink {
+  color: #34345c !important;
+  text-decoration: line-through !important;
+}
+
+/* D3.js Chart Styling */
+.chart-wrapper {
+  background: #fff !important;
+  border: 1px solid #d6daf0 !important;
+  border-radius: 4px !important;
+  padding: 15px !important;
+  margin: 15px 0 !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+.chart-container {
+  width: 100% !important;
+  overflow-x: auto !important;
+}
+
+.chart-container svg {
+  background: #fff !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+}
+
+.chart-container .grid line {
+  stroke: #e0e0e0 !important;
+  stroke-width: 1px !important;
+}
+
+.chart-container .grid path {
+  stroke: none !important;
+}
+
+.chart-container .domain {
+  stroke: #666 !important;
+  stroke-width: 1px !important;
+}
+
+.chart-container .tick text {
+  fill: #666 !important;
+  font-size: 11px !important;
+}
+
+.chart-container .legend text {
+  fill: #333 !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+
+.term-selector {
+  color: #666 !important;
+  font-size: 0.9em !important;
+  text-align: center !important;
+  padding: 8px !important;
+  background: #f9f9f9 !important;
+  border-radius: 3px !important;
+  border: 1px solid #e0e0e0 !important;
+}
+
+/* Chart tooltip (handled by D3 but styled globally) */
+.chart-tooltip {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+  font-size: 12px !important;
+  line-height: 1.4 !important;
+}
+
+/* Attribution styling */
+.attribution-container {
+  margin-top: 15px !important;
+  padding-top: 10px !important;
+  border-top: 1px solid #d6daf0 !important;
+  text-align: center !important;
+  font-size: 0.9em !important;
+}
+
+.attribution-text {
+  color: #666 !important;
+}
+
+.attribution-link {
+  color: #34345c !important;
+  text-decoration: none !important;
+  font-weight: bold !important;
+}
+
+.attribution-link:hover {
+  color: #d00 !important;
+  text-decoration: underline !important;
+}
+
+/* Mobile chart responsiveness */
+@media (max-width: 768px) {
+  .chart-wrapper {
+    padding: 5px !important;
+    margin: 5px 0 !important;
+    border-radius: 2px !important;
+  }
+  
+  .chart-container {
+    overflow-x: scroll !important;
+    padding: 0 !important;
+  }
+  
+  .chart-container svg {
+    min-width: 600px !important;
+  }
+  
+  .term-selector {
+    font-size: 0.8em !important;
+    padding: 6px !important;
+  }
+}
+
+/* Mobile specific chart fixes for very small screens */
+@media (max-width: 480px) {
+  .chart-wrapper {
+    padding: 2px !important;
+    margin: 2px -5px !important;
+    border-radius: 0 !important;
+    border-left: none !important;
+    border-right: none !important;
+  }
+  
+  .chart-container {
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    padding: 0 !important;
+  }
+  
+  .chart-container svg {
+    min-width: 700px !important;
+    height: 350px !important;
+  }
+  
+  .attribution-container {
+    font-size: 0.8em !important;
+    margin-top: 10px !important;
+    padding-top: 8px !important;
+  }
+}
+
+/* Chart loading state */
+.chart-loading {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 400px !important;
+  color: #666 !important;
+  font-style: italic !important;
+}
+
+/* Term Selector Styling */
+.term-selector-container {
+  background: #f0f0f0 !important;
+  border: 1px solid #d6daf0 !important;
+  border-radius: 4px !important;
+  padding: 15px !important;
+  margin: 15px 0 !important;
+}
+
+.selector-header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-bottom: 12px !important;
+  color: #34345c !important;
+  font-size: 1.1em !important;
+  border-bottom: 1px solid #d0d0d0 !important;
+  padding-bottom: 8px !important;
+}
+
+.term-count {
+  font-size: 0.9em !important;
+  color: #666 !important;
+  font-weight: normal !important;
+}
+
+/* Selected terms */
+.selected-terms {
+  margin-bottom: 15px !important;
+}
+
+.selected-terms-label {
+  font-weight: bold !important;
+  color: #34345c !important;
+  margin-bottom: 6px !important;
+  font-size: 0.95em !important;
+}
+
+.selected-terms-list {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 6px !important;
+}
+
+.selected-term {
+  background: #fff !important;
+  border: 1px solid #ccc !important;
+  border-left: 3px solid #d00 !important;
+  border-radius: 3px !important;
+  padding: 4px 8px !important;
+  font-size: 0.9em !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+.selected-term:hover {
+  background: #ffe6e6 !important;
+  border-color: #d00 !important;
+}
+
+.no-terms {
+  color: #999 !important;
+  font-style: italic !important;
+  font-size: 0.9em !important;
+}
+
+/* Common terms grid */
+.common-terms {
+  margin-bottom: 15px !important;
+}
+
+.common-terms-label {
+  font-weight: bold !important;
+  color: #34345c !important;
+  margin-bottom: 8px !important;
+  font-size: 0.95em !important;
+}
+
+.terms-grid {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)) !important;
+  gap: 6px !important;
+  margin-bottom: 10px !important;
+}
+
+.term-button {
+  background: #fff !important;
+  border: 1px solid #ccc !important;
+  border-radius: 3px !important;
+  padding: 6px 8px !important;
+  font-size: 0.85em !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  color: #333 !important;
+  font-family: inherit !important;
+}
+
+.term-button:hover:not(:disabled) {
+  background: #e6f3ff !important;
+  border-color: #34345c !important;
+}
+
+.term-button.selected {
+  background: #34345c !important;
+  color: white !important;
+  border-color: #34345c !important;
+}
+
+.term-button:disabled {
+  background: #f5f5f5 !important;
+  color: #999 !important;
+  cursor: not-allowed !important;
+  border-color: #ddd !important;
+}
+
+.show-more-container {
+  text-align: center !important;
+  margin-top: 8px !important;
+}
+
+.show-more-btn {
+  background: none !important;
+  border: 1px dashed #666 !important;
+  color: #666 !important;
+  padding: 4px 12px !important;
+  border-radius: 3px !important;
+  cursor: pointer !important;
+  font-size: 0.85em !important;
+  transition: all 0.2s ease !important;
+}
+
+.show-more-btn:hover {
+  border-color: #34345c !important;
+  color: #34345c !important;
+}
+
+/* Custom term input */
+.custom-term-input {
+  border-top: 1px dashed #ccc !important;
+  padding-top: 12px !important;
+}
+
+.custom-term-label {
+  font-weight: bold !important;
+  color: #34345c !important;
+  margin-bottom: 6px !important;
+  font-size: 0.95em !important;
+}
+
+.input-row {
+  display: flex !important;
+  gap: 8px !important;
+  align-items: center !important;
+}
+
+.custom-term-field {
+  flex: 1 !important;
+  padding: 6px 10px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 3px !important;
+  font-size: 0.9em !important;
+  font-family: inherit !important;
+}
+
+.custom-term-field:focus {
+  outline: none !important;
+  border-color: #34345c !important;
+  box-shadow: 0 0 3px rgba(52, 52, 92, 0.3) !important;
+}
+
+.custom-term-field:disabled {
+  background: #f5f5f5 !important;
+  color: #999 !important;
+}
+
+.add-term-btn {
+  background: #34345c !important;
+  color: white !important;
+  border: none !important;
+  padding: 6px 12px !important;
+  border-radius: 3px !important;
+  cursor: pointer !important;
+  font-size: 0.9em !important;
+  transition: background 0.2s ease !important;
+}
+
+.add-term-btn:hover:not(:disabled) {
+  background: #2a2a4a !important;
+}
+
+.add-term-btn:disabled {
+  background: #ccc !important;
+  cursor: not-allowed !important;
+}
+
+.limit-warning {
+  margin-top: 10px !important;
+  text-align: center !important;
+}
+
+.limit-warning .quote {
+  color: #789922 !important;
+  font-style: italic !important;
+  font-size: 0.9em !important;
+}
+
+/* Mobile responsiveness for term selector */
+@media (max-width: 768px) {
+  .terms-grid {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)) !important;
+    gap: 4px !important;
+  }
+  
+  .term-button {
+    padding: 5px 6px !important;
+    font-size: 0.8em !important;
+  }
+  
+  .selected-term {
+    font-size: 0.85em !important;
+    padding: 3px 6px !important;
+  }
+  
+  .input-row {
+    flex-direction: column !important;
+    align-items: stretch !important;
+  }
+  
+  .add-term-btn {
+    margin-top: 6px !important;
+  }
+}
+
+/* No terms selected message */
+.no-terms-message {
+  text-align: center !important;
+  padding: 40px 20px !important;
+  background: #f9f9f9 !important;
+  border: 1px dashed #ccc !important;
+  border-radius: 4px !important;
+  margin: 15px 0 !important;
+}
+
+.no-terms-message .quote {
+  color: #789922 !important;
+  font-size: 1.1em !important;
+  font-style: italic !important;
+}
+
+/* Platform Selector Styling */
+.platform-selector {
+  margin-bottom: 15px !important;
+  padding-bottom: 12px !important;
+  border-bottom: 1px dashed #ccc !important;
+}
+
+.platform-selector-label {
+  font-weight: bold !important;
+  color: #34345c !important;
+  margin-bottom: 8px !important;
+  font-size: 0.95em !important;
+}
+
+.platform-buttons {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  gap: 10px !important;
+  margin-bottom: 8px !important;
+}
+
+.platform-button {
+  background: #fff !important;
+  border: 2px solid #ccc !important;
+  border-radius: 4px !important;
+  padding: 10px 12px !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+  text-align: left !important;
+  font-family: inherit !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 2px !important;
+}
+
+.platform-button:hover:not(:disabled) {
+  border-color: #34345c !important;
+  background: #f8f8ff !important;
+}
+
+.platform-button.selected {
+  border-color: #34345c !important;
+  background: #e6f0ff !important;
+}
+
+.platform-button:disabled {
+  opacity: 0.6 !important;
+  cursor: not-allowed !important;
+}
+
+.platform-button.lgbt.selected {
+  border-color: #d00 !important;
+  background: #ffe6e6 !important;
+}
+
+.platform-button.r4tran.selected {
+  border-color: #ff6600 !important;
+  background: #fff3e6 !important;
+}
+
+.platform-icon {
+  font-weight: bold !important;
+  color: #34345c !important;
+  font-size: 1em !important;
+}
+
+.platform-button.lgbt .platform-icon {
+  color: #d00 !important;
+}
+
+.platform-button.r4tran .platform-icon {
+  color: #ff6600 !important;
+}
+
+.platform-description {
+  font-size: 0.8em !important;
+  color: #666 !important;
+}
+
+.platform-info {
+  margin-top: 8px !important;
+  text-align: center !important;
+}
+
+.platform-legend {
+  font-size: 0.85em !important;
+  color: #666 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 15px !important;
+}
+
+.legend-line {
+  display: inline-block !important;
+  width: 20px !important;
+  height: 2px !important;
+  background: #34345c !important;
+  vertical-align: middle !important;
+  margin-right: 5px !important;
+}
+
+.legend-line.solid {
+  background: #34345c !important;
+}
+
+.legend-line.dashed {
+  background: repeating-linear-gradient(to right, #34345c 0px, #34345c 3px, transparent 3px, transparent 6px) !important;
+}
+
+/* Mobile responsiveness for platform selector */
+@media (max-width: 768px) {
+  .platform-buttons {
+    grid-template-columns: 1fr !important;
+    gap: 8px !important;
+  }
+  
+  .platform-button {
+    padding: 8px 10px !important;
+  }
+  
+  .platform-legend {
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
+}

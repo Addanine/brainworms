@@ -1,0 +1,280 @@
+{
+  "category": "FTMs",
+  "icon": "ftm.svg",
+  "description": "Terms related to female-to-male transgender people and trans men",
+  "categoryImage": "ftm.webp",
+  "terms": [
+    {
+      "term": "FTM",
+      "definition": "A female to male transitioner. A trans man.",
+      "isDefiningTerm": true,
+      "images": ["./Brainworms Glossary_files/images/ftm2.webp"],
+      "relatedTerms": [
+        "MTF",
+        "Transgender",
+        "Transsexual"
+      ],
+      "secondaryCategories": ["General Trans"]
+    },
+    {
+      "term": "AFAB",
+      "definition": "Assigned Female at Birth",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/afab.webp"],
+      "relatedTerms": [
+        "AMAB",
+        "Theyfab"
+      ]
+    },
+    {
+      "term": "Ayden",
+      "definition": "A common name for trans men, is memed within the phrase \"take your shots ayden!\"",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/ayden.webp"],
+      "relatedTerms": [
+        "Alice"
+      ]
+    },
+    {
+      "term": "Dickless manlet",
+      "definition": "A derogatory description of trans men which may be used in a self-deprecating manner by FTMs to explain why women do not want to date them. Ie they are short in stature and lack a penis.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/dickless manlet.webp"],
+      "relatedTerms": ["Manlet", "Pooncel", "FtIncel"]
+    },
+    {
+      "term": "Dood",
+      "definition": "A term for making fun of how some trans guys say dude to each other all the time as if it's their first time ever using the word. Analogous to young people that learn to swear for the first time and overcompensate by saying fuck nonstop. The alternative spelling may also be derogatory by indicating a difference between cis “dudes” and trans “doods.”",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/dood.webp"],
+      "relatedTerms": ["Ayden"]
+    },
+    {
+      "term": "FTFemboy",
+      "definition": "A Female to Male transperson who retains some amount of femininity and presents as a pretty or feminine boy.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Femboy", "FTM"],
+      "secondaryCategories": ["Boys"]
+    },
+    {
+      "term": "FTMTF",
+      "definition": "A female to male detransitioner. They went from F to M to F.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "MTFTM"
+      ],
+      "secondaryCategories": ["Repression"]
+    },
+    {
+      "term": "Gayden",
+      "definition": "A derogatory term for a gay trans man which incorporates the common trans man name “Ayden” to imply that it is cliche or stereotypical for trans men to be gay.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Ayden", "Gay death"],
+      "secondaryCategories": ["Sexual Orientations", "Trans Infighting"]
+    },
+    {
+      "term": "Gigapoon",
+      "definition": "An FTM that does not pass as male to an extreme extent.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Gigahon",
+        "Gorillamoder",
+        "Pooner",
+        "Tunapoon"
+      ],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Girlmoder",
+      "definition": "A trans man who is still presenting as a girl as they have not fully transitioned yet or are not ready to fully come out of the closet, or a trans woman who is presenting as female in public after previously presenting male.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/girlmoder.webp"],
+      "relatedTerms": [
+        "Boymoder"
+      ],
+      "secondaryCategories": ["General Trans", "MTFs"]
+    },
+    {
+      "term": "IWNBAM",
+      "definition": "I Will Never Be A Man.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "YWNBAM",
+        "IWNBAW"
+      ]
+    },
+    {
+      "term": "YWNBAM",
+      "definition": "You Will Never Be A Man.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "IWNBAM",
+        "YWNBAW"
+      ]
+    },
+    {
+      "term": "Transmasc/Transmasculine",
+      "definition": "A trans person who leans towards or identifies with masculine gender identity and presentation.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/transmasc.webp"],
+      "relatedTerms": [
+        "Transfem/Transfeminine"
+      ]
+    },
+    {
+      "term": "Poonbro",
+      "definition": "the equivalent of calling a person \"dudebro\", but for non-passing trans men.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/poonbro.webp"],
+      "relatedTerms": ["Pooner", "Dood"],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Pooner",
+      "definition": "A slur for an FTM who does not pass as male. The FTM equivalent of a hon.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/pooner.webp"],
+      "relatedTerms": [
+        "Gigapoon",
+        "Hon",
+        "Poonchad",
+        "Tunapoon"
+      ],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Pooner art",
+      "definition": "A dehumanizing artstyle that depicts FTMs as small, pink, and bulbous with large swollen lips, grotesque stitches, and cronenburg-esque mutations. These images are usually drawn in MS paint by FTMs and are seemingly reminiscent of racial caricature art that existed in the early 20th century.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/pooner collage.webp"],
+      "relatedTerms": [
+        "Pooner"
+      ],
+      "secondaryCategories": ["random cultural stuff"]
+    },
+    {
+      "term": "Poonchad",
+      "definition": "The FTM equivalent of a \"chad\", a well passing FTM that looks extremely masculine and handsome.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/poonchad.webp"],
+      "relatedTerms": [
+        "passhon"
+      ],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Shotamoder",
+      "definition": "A transman who has come out, but is 'shotamoding' or presenting his gender as youthful/boyish to better pass when he would prefer to be seen as a masculine adult man.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Dwarfmoding"],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Tomboymoder",
+      "definition": "An FTM who is not yet presenting as entirely male but is instead presenting as a tomboyish girl.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/tomboymoder.webp"],
+      "relatedTerms": [
+        "girlmoder"
+      ]
+    },
+    {
+      "term": "Tunapoon",
+      "definition": "A derogatory term for ann FTM that does not pass as male to an extreme extent. Refers to being able to smell that they are AFAB as if or because they have a rank poon.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/tunapoon.webp"],
+      "relatedTerms": [
+        "Gigapoon",
+        "Pooner"
+      ],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "pooncel",
+      "definition": "The phenomenon of FTMs becoming involuntarily celibate due to a combination of their short stature, lack of penis, male brained personality, and heterosexual orientation. It is commonly stated that CisM incels would not last a day within the body of a non-passing \"pooner\".",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/pooncel.webp"],
+      "relatedTerms": [
+        "Pooner"
+      ]
+    },
+    {
+      "term": "FtIncel",
+      "definition": "The phenomenon of FTMs becoming involuntarily celibate due to a combination of their short stature, lack of penis, male brained personality, and heterosexual orientation. It is commonly stated that CisM incels would not last a day within the body of a non-passing heterosexual FTM.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Pooncel", "Dickless manlet"]
+    },
+    {
+      "term": "ftCoomer",
+      "definition": "A trans man who is part of the phenomenon of some FTMs having extremely high male sex drives and developing masturbation/porn addictions.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/ftcoomer.webp"],
+      "relatedTerms": ["Coomer"]
+    },
+    {
+      "term": "boypreggers",
+      "definition": "An ironic term to describe the \"heckin valid\" nature of FTM pregnancy.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["FTM"]
+    },
+    {
+      "term": "Ftfemboy",
+      "definition": "The act of a trans man becoming a femboy with e-boy, alt, or often emo aesthetics.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/ftfemboy.webp"],
+      "relatedTerms": ["Femboy"],
+      "secondaryCategories": ["Boys"]
+    },
+    {
+      "term": "Jane50",
+      "definition": "The hypothetical FTM alternative to John50. What will become of an FTM repper when they inevitably breakdown in their 50s and poon out.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/jane50.webp"],
+      "relatedTerms": ["John 50", "Repper / Repressor", "Pooning out"],
+      "secondaryCategories": ["Repression", "People"]
+    },
+    {
+      "term": "Pooning out",
+      "definition": "The act of proclaiming your gender as male and publically transitioning. Implies that this is an inherently embarassing or shameful act. It is the FTM specific equivalent to trooning out.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Trooning out", "Pooner", "FTM", "Jane50"],
+      "secondaryCategories": ["General Trans"]
+    },
+    {
+      "term": "Shotamaxxing",
+      "definition": "A trans man deliberately playing into the \"shota\" archetype to be more appealing or to more effectively pass as male. In anime terminology, shota refers to cute, small young boys.",
+      "isDefiningTerm": false,
+      "relatedTerms": ["Twink", "Boymode", "Passing"],
+      "secondaryCategories": ["Passing", "Boys"]
+    },
+    {
+      "term": "Twinkmoder",
+      "definition": "A transman deliberately playing into the \"twink\" archetype to be more appealing or to more effectively pass as male.",
+      "isDefiningTerm": false,
+      "relatedTerms": ["Twink", "Boymode", "Shotamaxxing"],
+      "secondaryCategories": ["Passing", "Boys"]
+    }
+  ]
+}

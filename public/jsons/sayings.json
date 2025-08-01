@@ -1,0 +1,256 @@
+{
+  "category": "Sayings",
+  "icon": "sayings.svg",
+  "description": "Common phrases, memes, and expressions used in trans communities",
+  "categoryImage": "sayings.webp",
+  "terms": [
+    {
+      "term": "Take your pills Alice",
+      "definition": "A copypasta meme phrase used to either inform an egg that they should follow through and transition, or to reassure someone having doubts that they should continue their transition.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Alice",
+        "Take your shots Ayden",
+        "E",
+        "Pills"
+      ],
+      "secondaryCategories": [
+        "HRT",
+        "MTFs"
+      ]
+    },
+    {
+      "term": "God gives his toughest battles to his strongest soldiers",
+      "definition": "the original basis for a phrase with infinite variations that humorously describes ironic and/or unfair situations which different groups of trans related people find themselves in. Common examples include: \"god gives his most masculine features to his most dysphoric trannies\", \"god gives his clockiest features to his most transphobic cis women\", \"god gives his shortest heights to his most malebrained pooners\", etc, etc.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/God gives his toughest battles to his strongest soldiers.webp"],
+      "relatedTerms": [
+        "Clock",
+        "Dysphoria"
+      ]
+    },
+    {
+      "term": "Monday morning, hairs a mess, no makeup, how do i look?",
+      "definition": "A copypasta meme phrase, used to downplay a selfie as not being their best effort.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Hugboxing"
+      ]
+    },
+    {
+      "term": "Simple as",
+      "definition": "Idiom implying something is so basic, it's unquestionable.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "waow"
+      ]
+    },
+    {
+      "term": "Spinny",
+      "definition": "\"Dress Go Spinny\", also referred to as \"Skirt Go Spinny\", is a popular catchphrase used in the LGBT community. The phrase is used as a tongue-in-cheek way to deflect criticism or inquiries as to why a trans woman transitioned, similar to how \"Money Printer Go Brr\".",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/spinny.webp"],
+      "relatedTerms": [
+        "Euphoria"
+      ],
+      "secondaryCategories": [
+        "MTFs"
+      ]
+    },
+    {
+      "term": "Take your shots Ayden",
+      "definition": "Derived from \"Take your pills Alice\" as an FTM equivalent. Used to encourage FTMs to follow through with their transition.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/take your shots ayden.webp"],
+      "relatedTerms": [
+        "Take your pills Alice",
+        "Ayden",
+        "T"
+      ],
+      "secondaryCategories": [
+        "HRT",
+        "FTMs"
+      ]
+    },
+    {
+      "term": "Tire iron",
+      "definition": "Part of a running gag around engaging in slapstick antics to punish a boymoder for engaging in over-the-top trans hijinks.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/tire iron.webp"],
+      "relatedTerms": [
+        "Boymoder",
+        "What would you do if you saw a boymoder ___ and being ___?"
+      ]
+    },
+    {
+      "term": "What would you do if you saw a boymoder ___ and being ___?",
+      "definition": "Copypasta meme phrase with long descriptive sentences filling in the blanks. The stock reply is, \"tire iron\".",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Tire iron",
+        "Boymoder"
+      ]
+    },
+    {
+      "term": "Would transition have saved her?",
+      "definition": "A copypasta meme phrase. Unironically used to refer to people identified as probable eggs that died before transitioning, and ironically used to apply said context to people who it would be absurd to imply are trans.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/would transition have saved her.webp"],
+      "relatedTerms": [
+        "Egg",
+        "Repper",
+        "41%"
+      ],
+      "secondaryCategories": [
+        "Repression"
+      ]
+    },
+    {
+      "term": "kys",
+      "definition": "Abbreviation of \"kill yourself\". A (typically) hyperbolic command issued to people whose words or actions have offended or upset the speaker.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/kys.webp"],
+      "relatedTerms": [
+        "ACK",
+        "Rope",
+        "41%",
+        "An Hero"
+      ],
+      "secondaryCategories": [
+        "Mental Illness & Suicide"
+      ]
+    },
+    {
+      "term": "waow",
+      "definition": "An exclamation used when a person secretly agrees with a socially unacceptable statement, but does not want to direct comment on it for fear of rejection.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/waow.webp"],
+      "relatedTerms": [
+        "Simple as"
+      ]
+    },
+    {
+      "term": "Heckin valid",
+      "definition": "A term used to sarcastically describe the validity of unfavorably percieved behavior within tucute subcultures, such as neopronouns or not wanting to pass.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/hecking valid.webp"],
+      "relatedTerms": [
+        "Hugboxing",
+        "Theyfab",
+        "Tenderqueer"
+      ]
+    },
+    {
+      "term": "Trans bodies are celestial",
+      "definition": "A sarcastic quote taken from the instagram page of an artist that is regarded as a tucute.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Hugboxing",
+        "Heckin valid"
+      ]
+    },
+    {
+      "term": "fmst",
+      "definition": "Fuck my stupid tranny life.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "kys",
+        "ACK"
+      ]
+    },
+    {
+      "term": "Fuck your dad / Fuck your brother",
+      "definition": "canned advice for any question from OP that even tangentially includes their father or brother.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": []
+    },
+    {
+      "term": "Stunning and Brave",
+      "definition": "A sarcastic quote used to mock those who are overly politically correct while complimenting a transgender person.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Hugboxing",
+        "Heckin valid"
+      ]
+    },
+    {
+      "term": "Mogs me",
+      "definition": "Mog means to make someone seem inferior by comparison due to their superior looks. The phrase \"mogs me\" is used sarcastically as a response to",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Mogging"
+      ]
+    },
+    {
+      "term": "HRT is magic",
+      "definition": "A sarcastic reuse of a common trans phrase which praises the powers of HRT to transform a persons body.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "HRT",
+        "Hopefuel"
+      ],
+      "secondaryCategories": [
+        "HRT"
+      ]
+    },
+    {
+      "term": "Being trans is body horror",
+      "definition": "The often horrific and disgusting nature of experiencing life through the perspective of a brain with a gender identity that is fundamentally incompatible with the gender of the body it is attached to.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Dysphoria",
+        "Brainworms"
+      ],
+      "secondaryCategories": [
+        "Mental Illness & Suicide"
+      ]
+    },
+    {
+      "term": "NGMI",
+      "definition": "Not Going to Make It. The situation is doomed.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/ngmi.webp"],
+      "relatedTerms": [
+        "It's over",
+        "Rope"
+      ],
+      "secondaryCategories": [
+        "Mental Illness & Suicide"
+      ]
+    },
+    {
+      "term": "GIWTM",
+      "definition": "Abbreviation of \"God I wish that were me.\" This phrase is sometimes used in reference to things that would not typically be considered enviable to emphasize how much the speaker wants their body or social perception to match their gender identity. May also be used in relation to freaky kinks.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/giwtwm.webp"],
+      "relatedTerms": [
+        "Dysphoria"
+      ]
+    },
+    {
+      "term": "KMS",
+      "definition": "Kill myself.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/kms.webp"],
+      "relatedTerms": [
+        "kys",
+        "ACK",
+        "Rope"
+      ],
+      "secondaryCategories": [
+        "Mental Illness & Suicide"
+      ]
+    }
+  ]
+}

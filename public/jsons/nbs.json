@@ -1,0 +1,63 @@
+{
+  "category": "NBs",
+  "icon": "NB.svg",
+  "description": "Terms related to non-binary people and gender non-conforming individuals",
+  "categoryImage": "nb.webp",
+  "terms": [
+    {
+      "term": "NB",
+      "definition": "a person who identifies as Non-Binary, neither male nor female. This is often pronounced as \"Enby\".",
+      "isDefiningTerm": true,
+      "images": [],
+      "relatedTerms": ["Enby", "GNC", "Theyfab", "Theymab"],
+      "secondaryCategories": ["General Trans"]
+    },
+    {
+      "term": "GNC",
+      "definition": "Gender Non-Conforming",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["NB"]
+    },
+    {
+      "term": "Negative androgyny",
+      "definition": "A lack of prominent features of either sex, said to give an ethereal attractive appearance. Examples include twinkhons and elfmoders.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Positive androgyny",
+        "Twinkhon",
+        "Elfmoding"
+      ]
+    },
+    {
+      "term": "Positive androgyny",
+      "definition": "the presence of both male and female secondary sex characteristics that gives an uncanny or unattractive appearance. Examples include a man with breasts or a woman with male pattern baldness.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Negative androgyny"
+      ]
+    },
+    {
+      "term": "Theyfab",
+      "definition": "Term for a person that was assigned female at birth and now uses they/them pronouns or is nonbinary.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/theyfab.webp"],
+      "relatedTerms": [
+        "Theymab",
+        "AFAB"
+      ]
+    },
+    {
+      "term": "Theymab",
+      "definition": "Term for a person that was assigned male at birth and now uses they/them pronouns or is nonbinary.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/theymab.webp"],
+      "relatedTerms": [
+        "Theyfab",
+        "AMAB"
+      ]
+    }
+  ]
+}

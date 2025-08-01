@@ -1,0 +1,288 @@
+{
+  "category": "Hons",
+  "icon": "hons.svg",
+  "description": "Terms related to non-passing trans women and associated concepts",
+  "categoryImage": "hons.webp",
+  "terms": [
+    {
+      "term": "Hon",
+      "definition": "A slur for a trans woman who does not (or cannot) pass.",
+      "isDefiningTerm": true,
+      "images": ["./Brainworms Glossary_files/images/hon.webp"],
+      "relatedTerms": [
+        "Bitterhon",
+        "Boomerhon",
+        "Gigahon",
+        "Honmoder",
+        "Pooner"
+      ],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Bitterhon",
+      "definition": "A non-passing trans woman that spitefully resents people living the life they wish they could have.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Hon",
+        "Gigahon"
+      ],
+      "secondaryCategories": [
+        "Trans Infighting"
+      ]
+    },
+    {
+      "term": "Boomerhon",
+      "definition": "A trans woman who does not pass due to transitioning at a very late age, to the point where they might be considered a \"boomer\".",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/boomerhon.webp"],
+      "relatedTerms": [
+        "Hon",
+        "Oldshit"
+      ],
+      "secondaryCategories": [
+        "Age"
+      ]
+    },
+    {
+      "term": "Brick/Brickhon",
+      "definition": "Brick is a body type that means that your shoulder width is the same as your hip width, without any particularly prominent body area. A brickhon is somebody that looks like this to the point where they believe they cannot pass as female because of it.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Cinderblock/Cinderblockhon",
+        "Hon"
+      ]
+    },
+    {
+      "term": "Cinderblock/Cinderblockhon",
+      "definition": "An extreme version of a brickhon. Implies a brickish and very rectangular body with no curves, to the extent that it prevents a trans woman from passing.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Brick/Brickhon",
+        "Hon"
+      ]
+    },
+    {
+      "term": "Funhon",
+      "definition": "a non-passing trans woman that improves her social standing by telling jokes and making funny faces. This seems to be the trans equivalent of having a funny fat friend.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Hon",
+        "Honfidence"
+      ]
+    },
+    {
+      "term": "Gigahon",
+      "definition": "A trans woman who is so extremely masculine in general appearance and bone structure that they could never possibly pass as cis.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/gigahon.webp"],
+      "relatedTerms": [
+        "Bitterhon",
+        "Heighthon",
+        "Hon"
+      ],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Heighthon",
+      "definition": "A very tall trans woman who believes she does not pass due to their extreme height.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/heighthon.webp"],
+      "relatedTerms": [
+        "Gigahon",
+        "Hon",
+        "Mogging"
+      ]
+    },
+    {
+      "term": "Hondose",
+      "definition": "A dose of estrogen that is too small to result in effective feminization, usually due to WPATH recommendations that trans women be treated to reach adult woman levels of estrogen and testosterone, rather than pubescent levels. Also called 'Starter Dose' or 'Underdose'",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "HRT",
+        "Honscience",
+        "WPATH",
+        "Dr Powers"
+      ],
+      "secondaryCategories": [
+        "HRT"
+      ]
+    },
+    {
+      "term": "Honfidence",
+      "definition": "The carefree confidence that is often perceived to be possessed by trans women who do not pass.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/honfidence.webp"],
+      "relatedTerms": []
+    },
+    {
+      "term": "Honmoder",
+      "definition": "The act of openly living as a trans woman who does not pass.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/honmoder.webp"],
+      "relatedTerms": [],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Honscience",
+      "definition": "Claims about endocrinology and hormone medication that are believed to be incorrect and only propagated by non-passing trans women, regardless of their actual veracity.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/honscience.webp"],
+      "relatedTerms": [],
+      "secondaryCategories": [
+        "HRT"
+      ]
+    },
+    {
+      "term": "Innerhon / Outerhon",
+      "definition": "An \"innerhon\" is a person who does not pass in terms of their personality but does pass in terms of their appearance. In contrast, an \"outerhon\" is somebody who doesn't pass in terms of their physical appearance but does pass in terms of their personality.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/innerhon outerhon.webp"],
+      "relatedTerms": [
+        "Hon"
+      ]
+    },
+    {
+      "term": "Rapehon",
+      "definition": "A hyperbolic and often self-deprecating term for non-passing trans women that make cis women uncomfortable with their mere presence, as correlated with their non-passing status. This term is usually used in a sarcastic manner and is generally not to be taken literally.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/rapehon.webp"],
+      "relatedTerms": []
+    },
+    {
+      "term": "Reddithon",
+      "definition": "A trans woman who uses mostly Reddit, as opposed to 4chan or any other social media website.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/reddithon.webp"],
+      "relatedTerms": [
+        "Hon",
+        "Discord tranny",
+        "Hugboxing"
+      ],
+      "secondaryCategories": [
+        "Trans Infighting"
+      ]
+    },
+    {
+      "term": "Ribcagehon",
+      "definition": "A trans woman who doesn't pass or thinks they can't pass because of their large and overly masculine ribcage.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/ribcagehon.webp"],
+      "relatedTerms": [],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Shadowhon",
+      "definition": "A trans woman so masculine in her stature that even the silhouette of her shadow is read as male.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/shadowhon.webp"],
+      "relatedTerms": [
+        "Hon",
+        "Gigahon"
+      ]
+    },
+    {
+      "term": "Shoulderhon",
+      "definition": "An MTF who feels they cannot pass due to their large and masculine shoulders.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/shoulderhon.webp"],
+      "relatedTerms": [
+        "Hon",
+        "Ribcagehon",
+        "Shoulderpilled",
+        "Bideltoid width"
+      ]
+    },
+    {
+      "term": "Sneedhon",
+      "definition": "A trans woman that is described as cutesy and naive in their disposition to the extent that it is deemed as cringe, they likely hang out in online communities that hugbox, are easily offended, and are in the earlier stages of their transition.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/sneedhon.webp"],
+      "relatedTerms": [
+        "Hon",
+        "Hugboxing",
+        "Sneed"
+      ]
+    },
+    {
+      "term": "Susansplace",
+      "definition": "A legacy forum for transgender women, usually older in age. The slur Hon was originally coined to mock users of susanspalace which refer to each other as \"hon\", being short for \"honey\".",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Hon"
+      ],
+      "secondaryCategories": ["Random Cultural Stuff"]
+    },
+    {
+      "term": "Twinkhon",
+      "definition": "A trans woman who does not pass but is not overtly masculine in the traditional sense and would likely meet the definition of a twink if they were a gay man instead. Twinkhons are often described as ethereal, desirable, and generally attractive.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/twinkhon.webp"],
+      "relatedTerms": [
+        "Hon",
+        "Twink",
+        "Negative androgyny"
+      ],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Namehon",
+      "definition": "A transwoman with a name that is clocky and commonly associated with transwomen, more so than cis women. Examples of this include Lilith, Jynx, Alice, Luna, etc.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Hon",
+        "Alice",
+        "Clock"
+      ],
+      "secondaryCategories": [
+        "Passing",
+        "MTFs"
+      ]
+    },
+    {
+      "term": "Voicehon",
+      "definition": "A transwoman who passes visually but is clocked due to the masculine sound of her voice.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/voicehon.webp"],
+      "relatedTerms": [
+        "Hon",
+        "Pass",
+        "Clock"
+      ],
+      "secondaryCategories": [
+        "Passing",
+        "MTFs"
+      ]
+    },
+    {
+      "term": "Ogrehon",
+      "definition": "A hon who is ogre like in her physiognomy.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/ogrehon.webp"],
+      "relatedTerms": [
+        "Hon",
+        "Gigahon",
+        "Physiognomy"
+      ],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "category": "Blanchard",
+  "icon": "blanchard.svg",
+  "description": "Terms related to Ray Blanchard's controversial typology of transgender people",
+  "categoryImage": "blanchard.webp",
+  "terms": [
+    {
+      "term": "Blanchard",
+      "definition": "A sexologist who is largely discredited within mainstream science. He came up with a typology of trans women that breaks them into Autogynephilia (AGP) and Homosexual Transexual (HSTS).",
+      "isDefiningTerm": true,
+      "images": [],
+      "relatedTerms": [
+        "AAP",
+        "AGP",
+        "Blanchtard",
+        "HSTS"
+      ],
+      "secondaryCategories": [
+        "People"
+      ]
+    },
+    {
+      "term": "AGP",
+      "definition": "Autogynephilia, a pseudo-scientific term that is part of Blanchard's typology of transsexuals. Purports that trans women who are bisexual, asexual, or attracted to women transitioned primarily to fulfill their sexual fetish of being perceived as a woman.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/autogynophillia.webp"],
+      "relatedTerms": [
+        "AAP",
+        "AGPP",
+        "AGPcurls",
+        "Blanchard",
+        "HSTS",
+        "MEF",
+        "Meta-Attracted",
+        "Erotic Target Location Error",
+        "AGAMP"
+      ],
+      "secondaryCategories": [
+        "Sex & Kink"
+      ]
+    },
+    {
+      "term": "AAP",
+      "definition": "Autoandrophillia, a pseudo-scientific term that is part of Blanchard's typology of transsexuals. Blanchard does not believe this is real, and proposed it merely to satisfy a gender parity with AGP. The paraphilic tendency of someone assigned female at birth to be sexually aroused by the thought of becoming a male.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/AAP.webp"],
+      "relatedTerms": [
+        "AGP",
+        "Blanchard",
+        "HSTS",
+        "AHE",
+        "Erotic Target Location Error"
+      ],
+      "secondaryCategories": [
+        "Sex & Kink",
+        "FTMs"
+      ]
+    },
+    {
+      "term": "AGAMP",
+      "definition": "Autogynandromorphile. A person who fetishizes the idea of becoming a trans woman or a woman with a penis, and then transitions with this sexually gratifying idea as their primary motive.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "AGAMPP",
+        "GAMP",
+        "AGP"
+      ],
+      "secondaryCategories": [
+        "Sex & Kink"
+      ]
+    },
+    {
+      "term": "AGAMPP",
+      "definition": "Autogynandromorphophile. A person who is attracted to AGAMP's.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "AGAMP",
+        "GAMP"
+      ],
+      "secondaryCategories": [
+        "Sex & Kink"
+      ]
+    },
+    {
+      "term": "AGPP",
+      "definition": "A person who is attracted to AGP's.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "AGP",
+        "Meta-Attracted"
+      ],
+      "secondaryCategories": [
+        "Sexual Orientations"
+      ]
+    },
+    {
+      "term": "AHE",
+      "definition": "Autohomoeroticism. The sexual fetish of being attracted to yourself as a gay man, usually from the perspective of a woman or trans man.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "AAP",
+        "ASE",
+        "Erotic Target Location Error"
+      ],
+      "secondaryCategories": [
+        "Sex & Kink",
+        "FTMs"
+      ]
+    },
+    {
+      "term": "ASE",
+      "definition": "Autosaphoeroticism. The sexual fetish of being attracted to yourself as a lesbian woman, usually from the person of a man or trans woman.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "AGP",
+        "AHE",
+        "Erotic Target Location Error"
+      ],
+      "secondaryCategories": [
+        "Sex & Kink",
+        "MTFs"
+      ]
+    },
+    {
+      "term": "Blanchtard",
+      "definition": "A trans person that unironically believes in and advocates for blanchardian theories.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/blanchtard.webp"],
+      "relatedTerms": [
+        "Blanchard",
+        "Unclehon"
+      ],
+      "secondaryCategories": [
+        "Trans Infighting"
+      ]
+    },
+    {
+      "term": "Ego dystonic autosapphoerotic synesthesia",
+      "definition": "Term invented by Cinderblockhon to create a pathologizing explanation for her dysphoria that precludes her from being an ordinary trans woman. It is likely Blanchard-inspired.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "ASE",
+        "AGP"
+      ],
+      "secondaryCategories": [
+        "Mental Illness & Suicide"
+      ]
+    },
+    {
+      "term": "Erotic Target Location Error",
+      "definition": "A hypothetical paraphilia relating to arousal at the idea of one's self as something else, such as autogynephilia or autoandrophilia.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "AGP",
+        "AAP",
+        "AHE",
+        "ASE"
+      ]
+    },
+    {
+      "term": "GAMP",
+      "definition": "Gynandromorphophilia, men who are attracted to trans women that have not had bottom surgery.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "AGAMP",
+        "AGAMPP",
+        "Chaser"
+      ],
+      "secondaryCategories": [
+        "Sexual Orientations",
+        "Sex & Kink"
+      ]
+    },
+    {
+      "term": "HSTS",
+      "definition": "Homosexual Transexual, a pseudo-scientific term that is part of Blanchard's typology of transsexuals. Under his typology, Homosexual Transexuals are supposedly homosexual people who transition in order to attract straight partners. Ie. lesbians who transition to men to attract straight women, or gay men who transition to women to attract straight men.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/hsts.webp"],
+      "relatedTerms": [
+        "AAP",
+        "AGP",
+        "Blanchard",
+        "Husstuss",
+        "Meta-Attracted"
+      ],
+      "secondaryCategories": [
+        "MTFs"
+      ]
+    },
+    {
+      "term": "Husstuss",
+      "definition": "Slang for HSTS (homosexual transexual).",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/husstuss.webp"],
+      "relatedTerms": [
+        "HSTS",
+        "AGP"
+      ],
+      "secondaryCategories": [
+        "MTFs"
+      ]
+    },
+    {
+      "term": "MEF",
+      "definition": "Masochistic emasculation fetish. A specific variety of AGP where the individual sees femininity as degrading and gets turned on by being a failed male.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/MEF.webp"],
+      "relatedTerms": [
+        "AGP",
+        "Erotic Target Location Error"
+      ],
+      "secondaryCategories": [
+        "Sex & Kink",
+        "Mental Illness & Suicide"
+      ]
+    },
+    {
+      "term": "Meta-Attracted",
+      "definition": "A part of Blanchard's pseudoscientific typology of transsexuals. Proposes that bisexual trans women are autogynephilic straight men that only appear to be attracted to men, because they are actually fulfilling the sexual fetish of seeing themselves in a feminine sex role. This helps make Blanchard's typology unfalsifiable by proposing that exceptions to it are simply lying.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "AGP",
+        "AGPP",
+        "Pseudobisexual",
+        "HSTS"
+      ]
+    },
+    {
+      "term": "Daddy Blanchard",
+      "definition": "A satirical name give to Blanchard that sarcastically praises him and puts him on a pedestal. Often memed as the phrase \"Praise Daddy Blanchard\".",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Blanchard",
+        "Blanchtard"
+      ],
+      "secondaryCategories": [
+        "People"
+      ]
+    }
+  ]
+}

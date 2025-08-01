@@ -1,0 +1,69 @@
+{
+  "category": "Random Cultural Stuff",
+  "icon": "culture.svg",
+  "description": "Miscellaneous cultural references and items popular in trans communities",
+  "categoryImage": "cultural stuff.webp",
+  "terms": [
+    {
+      "term": "QuadT",
+      "definition": "Another name for /tttt/, quad-t. For further clarification, /tttt/ has become a nickname for the /lgbt/ imageboard on 4chan as it is primarily filled with trans people.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/quadt.webp"],
+      "relatedTerms": ["/tttt/", "/lgbt/", "4chan"]
+    },
+    {
+      "term": "Blahaj",
+      "definition": "A shark plushie from Ikea that has become a meme among trans women and the general LGBT community.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/blahaj.webp"],
+      "relatedTerms": ["LGBT", "MTF"],
+      "secondaryCategories": ["MTFs", "General Trans"]
+    },
+    {
+      "term": "FO:NV",
+      "definition": "Fallout New Vegas, a game popular among trans women.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/fonv.webp"],
+      "relatedTerms": ["MTF", "Trans culture"],
+      "secondaryCategories": ["MTFs"]
+    },
+    {
+      "term": "Hoi4",
+      "definition": "Hearts of Iron 4, a game popular among trans women.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["MTF", "Trans culture"],
+      "secondaryCategories": ["MTFs"]
+    },
+    {
+      "term": "Kara",
+      "definition": "a beloved character from the visual novel game \"NEET Girl Date Night\", created by hitsuji. She is not canonically trans but is clearly at least heavily inspired by online trans culture.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/kara.webp"],
+      "relatedTerms": ["NEET Girl Date Night", "4tran"],
+      "secondaryCategories": ["General Trans"]
+    },
+    {
+      "term": "4t4",
+      "definition": "/r/4tran4, a 4tran subreddit.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["4tran", "/tttt/", "Reddit"]
+    },
+    {
+      "term": "sortfag",
+      "definition": "An 4tran subreddit user that sorts posts by new to better engage with the community in realtime.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["4t4", "4tran", "Reddit"]
+    },
+    {
+      "term": "Picrew",
+      "definition": "An avatar creation website. Artists submit different avatar creation systems, including 4tran themed avatars.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["4tran", "Trans culture"],
+      "secondaryCategories": ["General Trans"]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<!-- LGBT (rainbow) pride flag – square, flat colours, matched corner radius -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 60 60" shape-rendering="crispEdges">
+  <defs>
+    <!-- 25 % of 60 units → rx = 15 -->
+    <clipPath id="lgbt-rounded">
+      <rect width="60" height="60" rx="15" ry="15"></rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#lgbt-rounded)">
+    <!-- stripe height = 10 units (60 / 6) -->
+    <rect width="60" height="10" y="0" fill="#E40303"></rect> <!-- red    -->
+    <rect width="60" height="10" y="10" fill="#FF8C00"></rect> <!-- orange -->
+    <rect width="60" height="10" y="20" fill="#FFED00"></rect> <!-- yellow -->
+    <rect width="60" height="10" y="30" fill="#008026"></rect> <!-- green  -->
+    <rect width="60" height="10" y="40" fill="#004DFF"></rect> <!-- blue   -->
+    <rect width="60" height="10" y="50" fill="#750787"></rect> <!-- violet -->
+  </g>
+</svg>

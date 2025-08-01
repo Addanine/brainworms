@@ -1,0 +1,152 @@
+{
+  "category": "Mental Illness & Suicide",
+  "icon": "mental-health.svg",
+  "description": "Terms related to mental health issues and suicide in trans communities (WARNING: Sensitive content)",
+  "categoryImage": "illness.webp",
+  "terms": [
+    {
+      "term": "41%",
+      "definition": "this refers to the number of transgender people that supposedly commit suicide. In reality, 41% is considered to be the attempt rate, not the success rate. It is commonly blurted out in trans threads as a contextless insult from conservatives.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/41.webp"],
+      "relatedTerms": [
+        "ACK",
+        "Rope",
+        "Suifuel",
+        "An Hero",
+        "kys",
+        "Would transition have saved her?"
+      ],
+      "secondaryCategories": [
+        "Sayings"
+      ]
+    },
+    {
+      "term": "ACK",
+      "definition": "an onomatopoeia for the sound somebody makes during a hanging, and is often used to cut short sentences or quotes, indicating that the person was hanged before the end of the sentence.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/ack.webp"],
+      "relatedTerms": [
+        "41%",
+        "An Hero",
+        "Rope",
+        "kys",
+        "TCD / Total Cissoid Death"
+      ],
+      "secondaryCategories": [
+        "Sayings"
+      ]
+    },
+    {
+      "term": "An Hero",
+      "definition": "The act of committing suicide, or used to refer to someone who has committed suicide. Ancient 4chan meme based on a grammatical mistake in a poem about a kid who committed suicide.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/an hero.webp"],
+      "relatedTerms": [
+        "ACK",
+        "41%",
+        "Rope",
+        "kys"
+      ]
+    },
+    {
+      "term": "BDD",
+      "definition": "Body Dysmorphic Disorder, a mental illness involving obsessive focus on a perceived flaw in appearance. The flaw may be minor or imagined.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/bdd.webp"],
+      "relatedTerms": [
+        "Brainworms",
+        "Dysphoria"
+      ],
+      "secondaryCategories": [
+        "General Trans"
+      ]
+    },
+    {
+      "term": "Incorrigible",
+      "definition": "A negative aspect of a person that is not able to be corrected, improved, or reformed.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/incorrigible.webp"],
+      "relatedTerms": [],
+      "secondaryCategories": []
+    },
+    {
+      "term": "It's over",
+      "definition": "Something terrible has happened, I will never recover, and all hope is lost.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/it's over.webp"],
+      "relatedTerms": [
+        "LDAR",
+        "Suifuel",
+        "Incorrigible"
+      ],
+      "secondaryCategories": ["Sayings"]
+    },
+    {
+      "term": "LDAR",
+      "definition": "Lie down and rot. The idea that all hope is lost and the only remaining option for a person is to wallow in their own misery.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/LDAR.webp"],
+      "relatedTerms": [
+        "It's over",
+        "Rope",
+        "Doomer"
+      ]
+    },
+    {
+      "term": "Rope",
+      "definition": "To commit suicide, usually by hanging.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/rope.webp"],
+      "relatedTerms": [
+        "41%",
+        "ACK",
+        "An Hero",
+        "Suifuel",
+        "ropefuel",
+        "kys"
+      ]
+    },
+    {
+      "term": "Suifuel",
+      "definition": "ideas and content that encourage a person to commit suicide.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/suifuel.webp"],
+      "relatedTerms": [
+        "41%",
+        "Rope",
+        "hopefuel",
+        "ropefuel",
+        "It's over",
+        "Brainworms"
+      ],
+      "secondaryCategories": []
+    },
+    {
+      "term": "hopefuel",
+      "definition": "content and discussion that gives one hope for the future.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/hopefuel.webp"],
+      "relatedTerms": [
+        "Repfuel",
+        "Suifuel",
+        "ropefuel",
+        "Pass",
+        "Euphoria"
+      ]
+    },
+    {
+      "term": "ropefuel",
+      "definition": "content and discussion that makes one want to rope.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/ropefuel.webp"],
+      "relatedTerms": [
+        "Rope",
+        "Suifuel",
+        "hopefuel",
+        "41%",
+        "Clock"
+      ]
+    }
+  ]
+}

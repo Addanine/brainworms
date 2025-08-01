@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 50 50" shape-rendering="crispEdges">
+  <defs>
+    <clipPath id="trans-rounded">
+      <rect width="50" height="50" rx="13" ry="13"></rect>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#trans-rounded)">
+    <rect width="50" height="10" y="0" fill="#5BCEFA"></rect>
+    <rect width="50" height="10" y="10" fill="#F5A9B8"></rect>
+    <rect width="50" height="10" y="20" fill="#FFFFFF"></rect>
+    <rect width="50" height="10" y="30" fill="#F5A9B8"></rect>
+    <rect width="50" height="10" y="40" fill="#5BCEFA"></rect>
+  </g>
+</svg>

@@ -1,0 +1,172 @@
+{
+  "category": "MTFs",
+  "icon": "MTFs.svg",
+  "description": "Terms related to male-to-female transgender people and trans women",
+  "categoryImage": "mtf.webp",
+  "terms": [
+    {
+      "term": "MTF",
+      "definition": "A male to female transitioner, a trans woman.",
+      "isDefiningTerm": true,
+      "images": ["./Brainworms Glossary_files/images/mtf2.webp"],
+      "relatedTerms": [
+        "FTM",
+        "Transgender",
+        "Transsexual"
+      ]
+    },
+    {
+      "term": "Alice",
+      "definition": "A common chosen name for transgirls, is memed within the phrase \"take your pills alice!\"",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/alice.webp"],
+      "relatedTerms": [
+        "Ayden",
+        "Pills"
+      ]
+    },
+    {
+      "term": "AMAB",
+      "definition": "Assigned Male at Birth",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/amab.webp"],
+      "relatedTerms": [
+        "AFAB",
+        "Theymab"
+      ]
+    },
+    {
+      "term": "Boymoder",
+      "definition": "A usually younger transgirl who is in the process of transitioning or desires to transition, but is still \"boymoding\" or presenting as a boy and has not yet fully come out.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/boymoder.webp"],
+      "relatedTerms": [
+        "Manmoder",
+        "Girlmoder"
+      ],
+      "secondaryCategories": ["Repression"]
+    },
+    {
+      "term": "COGIATI",
+      "definition": "COmbined Gender Identity And Transsexuality Inventory, is a test developed by webcomic author Jennifer Diane Reitz, a transsexual woman who designed it \"specifically for the uncertain pre-transitional Male-to-Female gender dysphoric\".",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/cogiati.webp"],
+      "relatedTerms": ["Egg", "Pinkpill"]
+    },
+    {
+      "term": "Discord tranny",
+      "definition": "A trans woman who spends far too much time on Discord, an online instant messaging app, to the point that she mirrors the cultural attitudes and speech patterns of the platform.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/discord-tranny.webp"],
+      "relatedTerms": ["Reddithon", "Tranny"]
+    },
+    {
+      "term": "Euphoria boner",
+      "definition": "The sexual arousal induced erection that some MTF's experience due to “gender euphoria,” particularly in the earlier stages of their transition. Often associated with wearing feminine clothing.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/euphoria boner.webp"],
+      "relatedTerms": ["AGP", "Autogynesmile"]
+    },
+    {
+      "term": "Female brained bottoms",
+      "definition": "A bottom who has the brain and general personality of a female, usually referring to that of a trans woman.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/female brained bottoms.webp"],
+      "relatedTerms": ["Bottom", "Sub"],
+      "secondaryCategories": ["Sexual Orientations"]
+    },
+    {
+      "term": "Gorillamoder",
+      "definition": "Derogatory term for a transwoman who has a large, overtly masculine build, masculine features, and is very hairy. If they were to call themselves a twink pre-transition, gay men would tell them they were more akin to a bear.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/gorillamoder.webp"],
+      "relatedTerms": [
+        "Gigapoon"
+      ],
+      "secondaryCategories": ["Passing", "Hons"]
+    },
+    {
+      "term": "IWNBAW",
+      "definition": "\"I Will Never Be A Woman.\" A self-deprecating statement said by trans women about their own transition.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/IWNBAW.webp"],
+      "relatedTerms": [
+        "IWNBAM",
+        "YWNBAW"
+      ],
+      "secondaryCategories": ["Mental Illness & Suicide", "Repression"]
+    },
+    {
+      "term": "Manmoder",
+      "definition": "An MTF trans woman who is still \"manmoding\" or presenting as a masculine male. This term is used in contrast to boymoder, who are considered to be more youthful, effeminate, androgynous, and cute.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/manmoder.webp"],
+      "relatedTerms": [
+        "Boymoder",
+        "Tomboymoder"
+      ],
+      "secondaryCategories": ["Passing", "Repression"]
+    },
+    {
+      "term": "MTFTM",
+      "definition": "A male to female detransitioner. They went from M to F to M. Sometimes used to refer to fully transitioned trans women who adopt a masculine aesthetic on purpose.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/mtftm.webp"],
+      "relatedTerms": [
+        "FTMTF"
+      ],
+      "secondaryCategories": ["Repression"]
+    },
+    {
+      "term": "Tranny bangs",
+      "definition": "The bangs that trans women often adopt into their hairstyles to hide their higher hairlines, masculine brow ridge, and widow's peaks.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/trannybangs.webp"],
+      "relatedTerms": ["Pass", "Passing"]
+    },
+    {
+      "term": "Transfem/Transfeminine",
+      "definition": "A trans person who leans towards or identifies with feminine gender identity and presentation. Can be used to refer to an aesthetic, or can be used to refer to anyone AMAB that is transitioning with estrogen.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/transfem.webp"],
+      "relatedTerms": [
+        "Transmasc/Transmasculine"
+      ],
+      "secondaryCategories": [
+        "HRT"
+      ]
+    },
+    {
+      "term": "YWNBAW",
+      "definition": "\"You Will Never Be A Woman.\" A pejorative intended to drive trans women to despair, used by transphobes.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/ywnbaw.webp"],
+      "relatedTerms": [
+        "IWNBAW",
+        "YWNBAM"
+      ],
+      "secondaryCategories": ["Sayings", "TERFs"]
+    },
+    {
+      "term": "Rapebian",
+      "definition": "Hyperbolic term used to insult other transwomen, implying they might sexually assault someone.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/rapebian.webp"],
+      "relatedTerms": [
+        "Transbian",
+        "Rapehon"
+      ],
+      "secondaryCategories": ["Trans Infighting"]
+    },
+    {
+      "term": "Transbian relationship",
+      "definition": "A romantic relationship between two or more transwomen.",
+      "isDefiningTerm": false,
+      "relatedTerms": [
+        "Transbian",
+        "T4T"
+      ],
+      "secondaryCategories": ["Sexual Orientations"]
+    }
+  ]
+}

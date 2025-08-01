@@ -1,0 +1,21 @@
+<!-- FtM (trans‑masculine) flag – square, flat colours, *very* curved corners -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 90 90" shape-rendering="crispEdges">
+  <defs>
+    <clipPath id="ftm-rounded-big">
+      <!-- radius bumped from 6 → 18 -->
+      <rect width="90" height="90" rx="18" ry="18"></rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#ftm-rounded-big)">
+    <rect width="90" height="10" y="0" fill="#FF8ABE"></rect>
+    <rect width="90" height="10" y="10" fill="#DAD6EC"></rect>
+    <rect width="90" height="10" y="20" fill="#B6F1FF"></rect>
+    <rect width="90" height="10" y="30" fill="#93EAFF"></rect>
+    <rect width="90" height="10" y="40" fill="#75DFFF"></rect>
+    <rect width="90" height="10" y="50" fill="#93EAFF"></rect>
+    <rect width="90" height="10" y="60" fill="#B6F1FF"></rect>
+    <rect width="90" height="10" y="70" fill="#DAD6EC"></rect>
+    <rect width="90" height="10" y="80" fill="#FF8ABE"></rect>
+  </g>
+</svg>

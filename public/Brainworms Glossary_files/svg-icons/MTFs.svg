@@ -1,0 +1,19 @@
+<!-- MtF (trans‑feminine) flag – square, flat colours, *very* curved corners -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 70 70" shape-rendering="crispEdges">
+  <defs>
+    <clipPath id="mtf-rounded-big">
+      <!-- radius bumped from 6 → 18 -->
+      <rect width="70" height="70" rx="18" ry="18"></rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#mtf-rounded-big)">
+    <rect width="70" height="10" y="0" fill="#74DFFF"></rect>
+    <rect width="70" height="10" y="10" fill="#FEE1ED"></rect>
+    <rect width="70" height="10" y="20" fill="#FFB5D7"></rect>
+    <rect width="70" height="10" y="30" fill="#FE8DBF"></rect>
+    <rect width="70" height="10" y="40" fill="#FFB5D7"></rect>
+    <rect width="70" height="10" y="50" fill="#FEE1ED"></rect>
+    <rect width="70" height="10" y="60" fill="#74DFFF"></rect>
+  </g>
+</svg>

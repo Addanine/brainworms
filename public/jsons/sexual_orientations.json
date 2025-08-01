@@ -1,0 +1,127 @@
+{
+  "category": "Sexual Orientations",
+  "icon": "orientations.svg",
+  "description": "Terms related to sexual and romantic orientations in trans contexts",
+  "categoryImage": "orientations.webp",
+  "terms": [
+    {
+      "term": "Transbian",
+      "definition": "A trans woman who is attracted to other women, particularly other trans women.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/transbian.webp"],
+      "relatedTerms": [
+        "Cisbian",
+        "ST4T",
+        "T4T",
+        "MTF"
+      ],
+      "secondaryCategories": ["MTFs"]
+    },
+    {
+      "term": "Sub",
+      "definition": "Shorthand for submissive, a person who prefers to assume a submissive role within sexual, romantic, or general interpersonal situations.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Bottom",
+        "Dom",
+        "Top"
+      ],
+      "secondaryCategories": ["Sex & Kink"]
+    },
+    {
+      "term": "Bipedo",
+      "definition": "a term for a bisexual that is attracted to primarily feminine features, ie someone who prefers women and feminine-looking men. These are also the sorts of men who tend to look young (18 to mid-20s), so they get accused of going after \"barely legal\" types.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/bipedo.webp"],
+      "relatedTerms": ["Bisexual A/Bisexual B"]
+    },
+    {
+      "term": "Bisexual A/Bisexual B",
+      "definition": "one of them is an attraction to the extreme ends of the masculinity/feminity spectrum, and the other is an attraction to the middle (androgynous people). We have no idea which is which.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Bipedo", "Pseudobisexual"]
+    },
+    {
+      "term": "Bottom",
+      "definition": "A person who prefers to receive penetration and be generally more submissive during sex. As opposed to a top that prefers giving penetration and taking a more dominant role.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Dom",
+        "Sub",
+        "Top"
+      ]
+    },
+    {
+      "term": "Cisbian",
+      "definition": "A cisgendered woman who is attracted to other women. This term is usually used to differentiate from transbians.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Transbian", "sapphic"
+      ]
+    },
+    {
+      "term": "Dom",
+      "definition": "A person who takes the dominant role during relationships, sex, or BDSM-oriented activities. Not necessarily the same thing as a top.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Bottom",
+        "Sub",
+        "Top"
+      ],
+      "secondaryCategories": ["Sex & Kink"]
+    },
+    {
+      "term": "Gay death",
+      "definition": "The idea that when a gay person reaches around 30 years old, no one will be interested in them anymore because they are old now and gay people are so supposedly shallow they won't date anyone who isn't young. This is the gay version of \"hitting the wall\", an incel term that refers to cis women reaching 30 and suddenly being so old that no man will date her.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Twink death"]
+    },
+    {
+      "term": "Pseudobisexual",
+      "definition": "Pseudobisexuals are people who claim to be bisexual that only ever date or sleep with one gender. Otherwise, see meta-attraction.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Meta-Attracted",
+        "Bisexual A/Bisexual B"
+      ],
+      "secondaryCategories": ["Trans Infighting", "Mental Illness & Suicide"]
+    },
+    {
+      "term": "Sapphic",
+      "definition": "Refers to a woman of any sexual orientation attracted to other women.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Cisbian", "Transbian"],
+      "secondaryCategories": ["General Trans"]
+    },
+    {
+      "term": "ST4T",
+      "definition": "Straight trans for trans. A heterosexual relationship in which an FTM and an MTF are dating.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/st4t.webp"],
+      "relatedTerms": [
+        "T4T"
+      ],
+      "secondaryCategories": ["FTMs", "MTFs", "General Trans"]
+    },
+    {
+      "term": "Top",
+      "definition": "A phrase used by lesbians and gay men, referring to who engages in penetration during sexual encounters. Doesn't necessarily overlap with Dom.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Bottom",
+        "Dom",
+        "Sub"
+      ],
+      "secondaryCategories": ["Sex & Kink"]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+/* Fixes for sticky menu navigation alignment */
+
+/* Ensure parent container has full width */
+#board-list {
+  display: block !important;
+  width: 100% !important;
+}
+
+/* Force flexbox layout on custom-board-list */
+#custom-board-list {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  align-items: center !important;
+}
+
+/* Ensure nav groups don't shrink */
+.nav-left, .nav-right {
+  display: inline-block;
+  white-space: nowrap;
+}

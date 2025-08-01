@@ -1,0 +1,210 @@
+{
+  "category": "Cissies",
+  "icon": "cissies.svg",
+  "description": "Terms related to cisgender people from a trans perspective",
+  "categoryImage": "cissies.webp",
+  "terms": [
+    {
+      "term": "Cis",
+      "definition": "Identifying as the gender assigned at birth.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Cisgender",
+        "Transgender"
+      ],
+      "secondaryCategories": [
+        "General Trans"
+      ]
+    },
+    {
+      "term": "Cisgender",
+      "definition": "A person who identifies as the gender they were assigned at birth.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/cisgender.webp"],
+      "relatedTerms": [
+        "Cis",
+        "Transgender"
+      ]
+    },
+    {
+      "term": "Cishon",
+      "definition": "A cis woman who is masculine enough in her appearance that she sometimes gets mistaken as a trans woman. It is often observed that British TERFs have an unusually high ratio of cishons in comparison to that of the general population.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Cispooner",
+        "Hon",
+        "TERFs"
+      ],
+      "secondaryCategories": [
+        "Passing",
+        "TERFs"
+      ]
+    },
+    {
+      "term": "Cispooner",
+      "definition": "A cis man who is feminine enough in his appearance that he sometimes gets mistaken as a trans man.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/cispooner.webp"],
+      "relatedTerms": [
+        "Cishon",
+        "Pooner"
+      ],
+      "secondaryCategories": [
+        "Passing",
+        "FTMs"
+      ]
+    },
+    {
+      "term": "Cissoid",
+      "definition": "A playful derogatory term used to refer to cis people.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Cissy",
+        "TCD / Total Cissoid Death"
+      ]
+    },
+    {
+      "term": "Cissy",
+      "definition": "A humorous and slightly derogatory term that refers to cis people. It seems to be a play on the word sissy.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/cissy.webp"],
+      "relatedTerms": [
+        "Cissoid",
+        "Cis"
+      ]
+    },
+    {
+      "term": "Female brained females",
+      "definition": "A cis woman who is naturally feminine in their personality, lifestyle, and brain structure.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Malebrained",
+        "Fembrained"
+      ]
+    },
+    {
+      "term": "Reverse Dysphoria",
+      "definition": "The gender dysphoria that cis people are said to experience when they mistakenly transition, have an appearance that does not match with their gender identity, or are forced into situations in which they have to present as the opposite gender.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Dysphoria",
+        "Detrans"
+      ]
+    },
+    {
+      "term": "TCD / Total Cissoid Death",
+      "definition": "An ironic statement expressing frustration with cisgender people, typically used hyperbolically when venting about transphobia or cis privilege. A play on extremist rhetoric turned against the majority group.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Cissoid",
+        "ACK"
+      ]
+    },
+    {
+      "term": "ftF",
+      "definition": "A term originating from the YouTuber Jreg. It describes transitioning from a lower case female to an uppercase FEMALE, by changing one's appearance from that of a normal human female, to a post-human abomination of absurdly feminine and often bimbofied proportions. This is done as a form of cisF gender affirming care.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "mtM"
+      ]
+    },
+    {
+      "term": "mtM",
+      "definition": "A term originating from the YouTuber Jreg. It describes transitioning from a lower case male to an uppercase MALE, by changing one's appearance from that of a normal human male to a hulking monstrosity of absurdly masculine proportions. This is done as a form of cisM gender affirming care.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "ftF"
+      ]
+    },
+    {
+      "term": "Getting hatecrimed",
+      "definition": "Being violently attacked or murdered by a transphobic cis person, usually a cis man or group of cis men. This is often a concern during dates or hookups with chasers.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Day of the Rope",
+        "Chasers",
+        "Trans Panic Defense"
+      ],
+      "secondaryCategories": [
+        "Mental Illness & Suicide"
+      ]
+    },
+    {
+      "term": "Day of the Rope",
+      "definition": "A term stemming from white supremacy movements, it refers to the day in which oppressed minorities are hung from lampposts and eradicated from normie society, usually by some sort of fascist regime. The day of the rope is an unnerving possibility that remains within the background of the minds of many trans people.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Getting hatecrimed",
+        "TCD / Total Cissoid Death"
+      ],
+      "secondaryCategories": [
+        "Mental Illness & Suicide"
+      ]
+    },
+    {
+      "term": "V-coding",
+      "definition": "The very real and all to common nightmare scenario of trans women being put in mens prisons with the deliberate intention of them being repeatedly raped as a \"gift\" or \"placation tool\" to the male inmates. This is unfortunately very real. You can look it up on Wikipedia.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Getting hatecrimed",
+        "Trans Panic Defense"
+      ],
+      "secondaryCategories": [
+        "MTFs",
+        "Mental Illness & Suicide"
+      ]
+    },
+    {
+      "term": "Trans Panic Defense",
+      "definition": "A valid legal defense in most US states which permits \"I feared for my life when I realized she was a man\" as a defense for murdering a trans woman.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "V-carding",
+        "Getting hatecrimed"
+      ],
+      "secondaryCategories": [
+        "MTFs",
+        "Mental Illness & Suicide"
+      ]
+    },
+    {
+      "term": "Femcel",
+      "definition": "A woman who cannot get access to quality partners or sexual encounters. The female equivalent of an incel. However, while it is claimed that incels cannot access any sex at all, femcels usually claim they cannot access sex because all of the available partners are of extremely poor quality.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/femcel.webp"],
+      "relatedTerms": [
+        "Incel",
+        "Pooncel"
+      ],
+      "secondaryCategories": [
+        "Sexual Orientations"
+      ]
+    },
+    {
+      "term": "Incel",
+      "definition": "A man is involuntarily celibate. He cannot access sex with women and therefore often hates them for it. Much of the 4tran terminology system etymologically stems from incel subcultures.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Femcel",
+        "Pooncel",
+        "FtIncel"
+      ],
+      "secondaryCategories": [
+        "Sexual Orientations"
+      ]
+    }
+  ]
+}

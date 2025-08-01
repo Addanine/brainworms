@@ -1,0 +1,143 @@
+{
+  "category": "HRT",
+  "icon": "HRT.svg",
+  "description": "Terms related to hormone replacement therapy and medical transition",
+  "categoryImage": "hrt.webp",
+  "terms": [
+    {
+      "term": "HRT",
+      "definition": "Hormone Replacement Therapy, a pharmaceutical medication that replaces a person's natural hormones with those of the gender they identify with. Allowing them to go through specific physical changes that aid in their transition.",
+      "isDefiningTerm": true,
+      "images": ["./Brainworms Glossary_files/images/hrt2.webp"],
+      "relatedTerms": ["E", "T", "GAHT", "Blockers"],
+      "secondaryCategories": []
+    },
+    {
+      "term": "Bica",
+      "definition": "Bicalutamide. An anti-androgen that prevents testosterone from reaching cells, but does not stop it from being produced.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Blockers", "Spiro", "Cypro"],
+      "secondaryCategories": ["MTFs"]
+    },
+    {
+      "term": "Blockers",
+      "definition": "Pharmaceutical medication that blocks a person's naturally occurring hormones, usually testosterone. Common examples include spironolactone, bicalutamide, and finasteride. This can also refer to drugs that block puberty so that potentially trans children have time to decide whether or not they want to transition.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["HRT", "Bica", "Cypro", "Spiro"],
+      "secondaryCategories": ["MTFs", "FTMs"]
+    },
+    {
+      "term": "Cypro",
+      "definition": "Cyproterone acetate. An anti-androgen that blocks testosterone. It's generally considered to be a more powerful version of spironolactone.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Blockers", "Bica", "Spiro"],
+      "secondaryCategories": ["MTFs"]
+    },
+    {
+      "term": "DHT",
+      "definition": "Dihydrotestosterone, a hormone that stimulates the development of male characteristics. It is made through the conversion of the more commonly known hormone, testosterone. It is also largely responsible for the more undesirable parts of masculinization, such as male pattern baldness.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["T", "Finasteride"]
+    },
+    {
+      "term": "DIY",
+      "definition": "Do It Yourself, usually refers to self-medicating hormone medication.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/diy hrt.webp"],
+      "relatedTerms": ["Inhouse pharmacy", "Lenajuice"]
+    },
+    {
+      "term": "Domp",
+      "definition": "Domperidone, is a medication that induces lactation in women.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Prog", "HRT"]
+    },
+    {
+      "term": "Dr Powers",
+      "definition": "A well-known doctor who specializes in trans health care and has his own method of hormone replacement therapy that differs from the standard recommended by WPATH, which is purported to be more effective. Also regarded as a bit of a crackpot.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["WPATH", "Monotherapy"]
+    },
+    {
+      "term": "E",
+      "definition": "Estrogen",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/e.webp"],
+      "relatedTerms": ["HRT", "Estrogen", "Lenajuice"],
+      "secondaryCategories": ["MTFs"]
+    },
+    {
+      "term": "GAHT",
+      "definition": "Gender Affirming Hormone Therapy",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["HRT"]
+    },
+    {
+      "term": "Inhouse pharmacy",
+      "definition": "An online pharmacy that sells hormone medication without the need of a prescription.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["DIY", "Lenajuice"]
+    },
+    {
+      "term": "Lenajuice",
+      "definition": "The cheap injectable estrogen that is sold by an Ukrainian woman known as Lena.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["DIY", "Inhouse pharmacy", "E"],
+      "secondaryCategories": ["People"]
+    },
+    {
+      "term": "Monotherapy",
+      "definition": "A HRT method that uses estrogen alone without the addition of an androgen blocker. It's a commonly used term within the doctor powers community, a celebrity trans endocrinologist.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["E", "Dr Powers"],
+      "secondaryCategories": ["MTFs"]
+    },
+    {
+      "term": "Prog",
+      "definition": "Progesterone, a female hormone associated with increased sex drive, and breast growth. Often taken rectally for best results.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["HRT", "Prog Horny", "Domp"]
+    },
+    {
+      "term": "Prog Horny",
+      "definition": "This refers to the increase in sex drive that MTFs often experience after taking progesterone as part of their hormone replacement therapy.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Prog"],
+      "secondaryCategories": ["MTFs", "Sex & Kink"]
+    },
+    {
+      "term": "SERMs",
+      "definition": "Selective Estrogen Receptor Modulators. Raloxifene is the best known. SERMs can promote estrogen uptake in certain receptors, and prevent it in others, allowing for selective feminization in transfeminine HRT.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/SERMs.webp"],
+      "relatedTerms": ["HRT femboy", "Raloxifene"]
+    },
+    {
+      "term": "WPATH",
+      "definition": "World Professional Association for Transgender Health, an organization that has created a standard of care document that is intended to advise medical professionals on how to administer transition care to transgender patients. Notable for recommending lower doses of hormones and hormone levels than would be effective to produce effective results and recommending wait lists as a way of gatekeeping trans people to make sure they're actually trans.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/wpath.webp"],
+      "relatedTerms": ["Dr Powers", "Hondose"]
+    },
+    {
+      "term": "T",
+      "definition": "Testosterone.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/T.webp"],
+      "relatedTerms": ["HRT", "DHT", "Take your shots Ayden"],
+      "secondaryCategories": ["FTMs"]
+    }
+  ]
+}

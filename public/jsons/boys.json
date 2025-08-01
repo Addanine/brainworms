@@ -1,0 +1,121 @@
+{
+  "category": "Boys",
+  "icon": "boys.svg",
+  "description": "Terms related to masculine-presenting people, femboys, and associated concepts",
+  "categoryImage": "boys.webp",
+  "terms": [
+    {
+      "term": "Femboy",
+      "definition": "A young man or boy who is generally considered to be naturally cute or androgynous in their form, while also presenting in a feminine manner.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "FTFemboy",
+        "Femboycope",
+        "HRT femboy",
+        "Femman",
+        "Boywife/Malewife"
+      ]
+    },
+    {
+      "term": "Boypussy/Bussy",
+      "definition": "A cis boy's butthole in the context of anal sex or a trans man's vagina.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Boywife/Malewife"
+      ]
+    },
+    {
+      "term": "Boyremove",
+      "definition": "This usually refers to the act of a transgirl being dominated and overpowered by a masculine sexual partner, such that they feel so feminine in comparison that their socialized \"boyness\" becomes removed during the process.",
+      "isDefiningTerm": false,
+      "images": ["Brainworms Glossary_files/images/boyremove.webp"],
+      "relatedTerms": [
+        "Boysmell",
+        "Boywife/Malewife"
+      ],
+      "secondaryCategories": [
+        "MTFs"
+      ]
+    },
+    {
+      "term": "Boysmell",
+      "definition": "The smell of a boy. The process of transitioning can make this smell more appealing and arousing.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Boyremove"
+      ]
+    },
+    {
+      "term": "Boywife/Malewife",
+      "definition": "A male that assumes the more feminine and submissive role within a long-term committed relationship with another more masculine male.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Boypussy/Bussy",
+        "Boyremove",
+        "Femboy"
+      ],
+      "secondaryCategories": [
+        "Sexual Orientations"
+      ]
+    },
+    {
+      "term": "Femman",
+      "definition": "A more masculine-bodied male that uses some amount of female gender presentation.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Femboy",
+        "HRT femboy"
+      ]
+    },
+    {
+      "term": "HRT femboy",
+      "definition": "A feminine male that uses HRT to maintain or enhance feminine features without identifying as a trans woman. They may use alternative hormone regimens to maintain this, such as SERMs, notably Raloxifene.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Femboy",
+        "Femman",
+        "SERMs"
+      ],
+      "secondaryCategories": [
+        "HRT"
+      ]
+    },
+    {
+      "term": "Twink",
+      "definition": "An attractive, boyish-looking, young gay man. The stereotypical twink is 18-22, slender with little or no body hair, in good physical shape, and sexually submissive.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Twink death",
+        "Twinkhon",
+        "Twunk"
+      ]
+    },
+    {
+      "term": "Twink death",
+      "definition": "The idea that as twinks become older, they lose their boyish aesthetic and therefore gradually stop being a twink. See gay death.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Twink",
+        "Gay death"
+      ]
+    },
+    {
+      "term": "Twunk",
+      "definition": "a combination of a twink and a hunk. A twink who has bulked up and is more muscular in his physique.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Twink",
+        "Bara"
+      ]
+    }
+  ]
+}

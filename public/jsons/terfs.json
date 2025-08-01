@@ -1,0 +1,186 @@
+{
+  "category": "TERFs",
+  "icon": "terfs.svg",
+  "description": "Terms related to Trans-Exclusionary Radical Feminists and their ideology",
+  "categoryImage": "terfs.webp",
+  "terms": [
+    {
+      "term": "TERF",
+      "definition": "Trans Exclusionary Radical Feminist. An AFAB cis feminist who supports women's rights at the complete exclusion of trans women, who are perceived to be predatory men invading women's spaces.",
+      "isDefiningTerm": true,
+      "images": ["./Brainworms Glossary_files/images/TERF.webp"],
+      "relatedTerms": [
+        "Peak Trans",
+        "ROGD",
+        "TERFmoder",
+        "TIF",
+        "TIM"
+      ],
+      "secondaryCategories": []
+    },
+    {
+      "term": "Autogynesmile",
+      "definition": "A TERF term that insists that trans women smile in an unnatural and unfeminine way that is both creepy and threatening. There is also a classic TERF song called \"never smile at an autogynephile\".",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "TERF",
+        "AGP",
+        "Euphoria boner"
+      ],
+      "secondaryCategories": ["MTFs"]
+    },
+    {
+      "term": "Biochan",
+      "definition": "a TERF character often drawn wearing a science coat with DNA-like hair to mock trans people through the assertion that they cannot change their biological gender.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/biochan.webp"],
+      "relatedTerms": [
+        "TERF",
+        "Kikomi"
+      ],
+      "secondaryCategories": [
+        "Random Cultural Stuff"
+      ]
+    },
+    {
+      "term": "Giggle",
+      "definition": "A social network app that attempts to use facial recognition to only allow cis women to register. The facial recognition is inaccurate and allows many trans women to register, and prevents many cis women from registering, especially Women of Color. The creator is a TERF and will personally ban any trans woman she discovers using the app, and uses the social network to promote anti-trans rhetoric.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "TERF",
+        "Mumsnet",
+        "Ovarit"
+      ]
+    },
+    {
+      "term": "IITS",
+      "definition": "Ideology Induced Transsexual. Someone who is purported to not really be trans, just identifies as such due to social contagion.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [],
+      "secondaryCategories": []
+    },
+    {
+      "term": "Kikomi",
+      "definition": "terf character that claims to be \"biotrans\", meaning that she is a biological female who is transitioning into an MTF. The character is used to mock trans women by doing absurd things such as shaving her hair to look like male pattern baldness, wearing a strap on under her skirt to imitate euphoria boners, using makeup to give herself 5 o'clock shadow, dressing like a lolita, grooming minors on the internet, and pursuing cosmetic surgeries to achieve a more masculine bone structure.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/kikomi.webp"],
+      "relatedTerms": [
+        "TERF"
+      ]
+    },
+    {
+      "term": "Mumsnet",
+      "definition": "British parent support forum that has overwhelmingly become a home for TERFs.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "TERF"
+      ],
+      "secondaryCategories": []
+    },
+    {
+      "term": "Ovarit",
+      "definition": "TERF website modeled on Reddit.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/ovarit.webp"],
+      "relatedTerms": [
+        "TERF"
+      ],
+      "secondaryCategories": []
+    },
+    {
+      "term": "Peak Trans",
+      "definition": "A TERF term for the moment when a TERF has had enough of trans people and decides to become a TERF.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "TERF"
+      ],
+      "secondaryCategories": []
+    },
+    {
+      "term": "Peaking",
+      "definition": "A TERF term for causing a peak trans moment for another person by attempting to convince them that trans women are all rapists and murderers.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/peaking.webp"],
+      "relatedTerms": [
+        "TERF"
+      ],
+      "secondaryCategories": []
+    },
+    {
+      "term": "ROGD",
+      "definition": "Rapid Onset Gender Dysphoria. A term coined by Lisa Littman after conducting a survey of parents which established that most parents were unaware their kid was trans before the kid came out to them, and attempted to use this to argue that transgender identity can be propagated as a social contagion. It has never been recognized by any major professional association as a valid mental health diagnosis, and its use has been discouraged by the American Psychological Association, the American Psychiatric Association, the World Professional Association for Transgender Health, and other medical organizations due to a lack of reputable scientific evidence for the concept.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": []
+    },
+    {
+      "term": "Spinster.xyz",
+      "definition": "TERF Mastodon instance.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "TERF"
+      ],
+      "secondaryCategories": []
+    },
+    {
+      "term": "TERF pipeline",
+      "definition": "similar to the more well-known alt-right pipeline, refers to the consumption of increasingly extreme ideological content that starts with general feminism but gradually converts a person into a TERF.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "TERF"
+      ],
+      "secondaryCategories": []
+    },
+    {
+      "term": "TIF",
+      "definition": "Trans Identified Female. The TERF term for an FTM.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "TERF",
+        "TIM"
+      ],
+      "secondaryCategories": []
+    },
+    {
+      "term": "TIM",
+      "definition": "Trans Identified Male. The TERF term for an MTF.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/TIM.webp"],
+      "relatedTerms": [
+        "TERF",
+        "TIF"
+      ],
+      "secondaryCategories": []
+    },
+    {
+      "term": "TERFmoder",
+      "definition": "an FTM who represses by becoming a TERF. JK Rowling is a commonly cited example of this phenomenon.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/terfmoder.webp"],
+      "relatedTerms": [
+        "Repper / Repressor",
+        "TERF"
+      ],
+      "secondaryCategories": [
+        "FTMs"
+      ]
+    },
+    {
+      "term": "TERF Island",
+      "definition": "The United Kingdom.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/TERF-island.webp"],
+      "relatedTerms": [
+        "TERF"
+      ]
+    }
+  ]
+}

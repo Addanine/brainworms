@@ -1,0 +1,70 @@
+{
+  "category": "Age",
+  "icon": "age.svg",
+  "description": "Terms related to the age at which someone transitions and its perceived effects",
+  "categoryImage": "age.webp",
+  "terms": [
+    {
+      "term": "Youngshit",
+      "definition": "A person who transitioned at a very young age, to the point that it gave them a perceived unfair advantage in their ability to pass.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/youngshit.webp"],
+      "relatedTerms": [
+        "Oldshit",
+        "Midshit",
+        "Turboyoungshit / Gigayoungshit",
+        "Pass",
+        "Passoid"
+      ],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Jurrassicshit / Ancientshit",
+      "definition": "A person who started HRT at an extremely late age, this term is usually used in a playful and ironic manner.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Oldshit",
+        "Boomerhon",
+        "Hon",
+        "Midshit"
+      ]
+    },
+    {
+      "term": "Midshit",
+      "definition": "A person who transitioned at an age somewhere between that of a youngshit and an old shit. This was generally considered to be 20-30 but has been memed into a much younger age and differs wildly, depending on who you ask.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/midshit.webp"],
+      "relatedTerms": [
+        "Youngshit",
+        "Oldshit",
+        "Jurrassicshit / Ancientshit"
+      ]
+    },
+    {
+      "term": "Oldshit",
+      "definition": "A person who transitioned at an older age to the point that it gives them a disadvantage in their transition and general passability. This used to be considered around 30+ but has been memed down to around 16+, depending on who you ask.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Youngshit",
+        "Midshit",
+        "Boomerhon"
+      ]
+    },
+    {
+      "term": "Turboyoungshit / Gigayoungshit",
+      "definition": "A trans person who transitioned at an EXTREMELY young age. They likely started blockers as soon as they hit puberty and their endocrine systems were never even touched by anything aside from cross-sex hormones.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/gigayoungshit.webp"],
+      "relatedTerms": [
+        "Youngshit",
+        "Pass",
+        "Stealth",
+        "Puberty blockers"
+      ]
+    }
+  ]
+}

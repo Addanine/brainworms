@@ -1,0 +1,145 @@
+{
+  "category": "Repression",
+  "icon": "repression.svg",
+  "description": "Terms related to denying or suppressing one's trans identity",
+  "categoryImage": "repression.webp",
+  "terms": [
+    {
+      "term": "Repper / Repressor",
+      "definition": "A person repressing their gender dysphoria and a general need to transition.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/repper.webp"],
+      "relatedTerms": [
+        "Detrans",
+        "Egg",
+        "Repfuel"
+      ],
+      "secondaryCategories": ["General Trans", "Mental Illness & Suicide"]
+    },
+    {
+      "term": "Desister",
+      "definition": "People who considered themselves trans and/or underwent transition that ultimately decided to permanently cease identifying as trans and medically transitioning. Very rare. 1-6 in 1000 trans people are said to permanently desist.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/desister.webp"],
+      "relatedTerms": [
+        "Detrans"
+      ],
+      "secondaryCategories": ["Mental Illness & Suicide", "Trans Infighting"]
+    },
+    {
+      "term": "Detrans",
+      "definition": "A trans person who detransitions and reverts back to the gender they were assigned at birth. A detransitioner may later decide to retransition. Only a small proportion of detrans people are desisters and most people who detransition do so due to transphobia.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/detrans.webp"],
+      "relatedTerms": [
+        "Desister",
+        "MTFTM",
+        "FTMTF"
+      ]
+    },
+    {
+      "term": "Egg",
+      "definition": "A person who does not yet realize they are trans. The act of realizing they are trans is referred to as \"hatching\".",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Detrans",
+        "Repper / Repressor"
+      ],
+      "secondaryCategories": ["General Trans", "MTFs", "FTMs"]
+    },
+    {
+      "term": "Enbycope",
+      "definition": "When a person is either not ready to accept that they are MTF/FTM or cannot pass as such, so they tell themselves and other people that they are non-binary instead because it's more comfortable than the alternative. Nonbinary people are frequently accused of enbycope as a way of unfairly dismissing their nonbinary identity.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/enbycope.webp"],
+      "relatedTerms": [
+        "Femboycope",
+        "NB",
+        "Repper / Repressor"
+      ],
+      "secondaryCategories": [
+        "NBs",
+        "Passing"
+      ]
+    },
+    {
+      "term": "Femboycope",
+      "definition": "When a trans woman is either not ready to accept that they are MTF or cannot pass as such, so they tell themselves and other people that they are a femboy instead because it's more comfortable than the alternative.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/femboycope.webp"],
+      "relatedTerms": [
+        "Enby cope",
+        "Femboy",
+        "Repper / Repressor"
+      ],
+      "secondaryCategories": [
+        "Boys",
+        "Passing"
+      ]
+    },
+    {
+      "term": "Permamanmoder",
+      "definition": "An MTF trans woman who is in a state of permanently presenting as a man due to repression, not being out yet, or any number of other potential reasons.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Manmoder",
+        "Repper / Repressor",
+        "Boymoder"
+      ],
+      "secondaryCategories": ["MTFs", "Passing"]
+    },
+    {
+      "term": "Repchad",
+      "definition": "A \"male\" repper who is praised for living their best life as a man, despite their gender dysphoria.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/repchad.webp"],
+      "relatedTerms": ["Repper / Repressor"]
+    },
+    {
+      "term": "Healthy Repression",
+      "definition": "The idea that it is possible to repress gender dysphoria and the need to transition in a psychologically healthy manner (it isn't possible).",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/healthy repression.webp"],
+      "relatedTerms": ["Repper / Repressor"]
+    },
+    {
+      "term": "Repfuel",
+      "definition": "Something which reduces hope in a person who wants to transition to the point that it encourages them to repress their urges further.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/repfuel.webp"],
+      "relatedTerms": ["Repper / Repressor", "Brainworms"]
+    },
+    {
+      "term": "John 50",
+      "definition": "A \"50 year-old genetic male\" that was used as a case study within an article known as \"The Gender Variant Phenomenon--A Developmental Review\". Within this article, he is said to have broken down due to decades of repressing his gender dysphoria. He is often used as an example of what a person will become if they repress their gender dysphoria into their old age.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/john50.webp"],
+      "relatedTerms": [
+        "Repper / Repressor"
+      ],
+      "secondaryCategories": [
+        "People",
+        "MTFs",
+        "Mental Illness & Suicide"
+      ]
+    },
+    {
+      "term": "HRT repper",
+      "definition": "A person who uses HRT to make themselves more comfortable with their body while still repressing the desire to socially and visibly trans",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/HRT Repper.webp"],
+      "relatedTerms": [
+        "Repper / Repressor",
+        "HRT",
+        "Boymoder",
+        "Manmoder"
+      ],
+      "secondaryCategories": [
+        "HRT",
+        "MTFs"
+      ]
+    }
+  ]
+}

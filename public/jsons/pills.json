@@ -1,0 +1,69 @@
+{
+  "category": "Pills",
+  "icon": "pills.svg",
+  "description": "Terms using the \"pill\" suffix to describe realizations or fears about transition",
+  "categoryImage": "pills.webp",
+  "terms": [
+    {
+      "term": "Pinkpill",
+      "definition": "Where the redpill refers to someone realizing a truth about the world, pinkpill refers to someone realizing they are trans, usually a trans woman. Pinkpilling someone refers to making someone realize they are transgender. Sometimes used in a fetishized context. The original Red Pill from the movie The Matrix, was intended to be a parallel to the red pill form of Premarin, an early pill form of Estrogen for HRT.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Egg", "COGIATI", "Sissy Hypno"],
+      "secondaryCategories": [
+        "MTFs"
+      ]
+    },
+    {
+      "term": "Bonepill",
+      "definition": "The fear that one will not pass due to their bone structure.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/bone pill.webp"],
+      "relatedTerms": [
+        "Pinkpill",
+        "Shoulderpilled",
+        "Skullpilled"
+      ],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Petpill",
+      "definition": "When you realize that petplay fetishes are a core part of your sexual identity, especially in the context of performing the submissive role as a kitten or puppy for an owner/handler.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Puppygirl", "Catgirl"],
+      "secondaryCategories": [
+        "Sex & Kink"
+      ]
+    },
+    {
+      "term": "Shoulderpilled",
+      "definition": "The fear that one will not pass due to their shoulders being too wide or too small to match their gender identity.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Bonepill",
+        "Shoulderhon",
+        "Skullpilled"
+      ],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Skullpilled",
+      "definition": "The fear that one will not pass due to their skull being the wrong shape.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Bonepill",
+        "Shoulderpilled"
+      ],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    }
+  ]
+}

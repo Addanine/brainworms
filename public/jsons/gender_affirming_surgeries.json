@@ -1,0 +1,80 @@
+{
+  "category": "Gender Affirming Surgeries",
+  "icon": "surgery.svg",
+  "description": "Terms related to surgical procedures for gender transition",
+  "categoryImage": "surgeries.webp",
+  "terms": [
+    {
+      "term": "SRS",
+      "definition": "Sexual reassignment surgery. The surgical procedure of having your genitals rearranged into a neovagina or neopenis.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Neovag", "Neopenis"],
+      "secondaryCategories": ["MTFs", "FTMs"]
+    },
+    {
+      "term": "FFS",
+      "definition": "Facial Feminization Surgery",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/ffs.webp"],
+      "relatedTerms": ["FMS"],
+      "secondaryCategories": ["MTFs", "Passing"]
+    },
+    {
+      "term": "Dilate",
+      "definition": "The act of inserting medical dilators into a neo-vagina to prevent it from closing up and becoming unusable. This has to be done on a daily basis for long periods of time after sexual reassignment surgery. Used as an insulting command by transphobic people in a way similar to \"cope\" or \"seethe\".",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Neovag", "SRS"],
+      "secondaryCategories": ["MTFs"]
+    },
+    {
+      "term": "DIY Orchi",
+      "definition": "Do It Yourself Orchiectomy. The act of cutting off your own testicles.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Orchiectomy"],
+      "secondaryCategories": ["Mental Illness & Suicide"]
+    },
+    {
+      "term": "FMS",
+      "definition": "Facial Masculinization Surgery",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["FFS"],
+      "secondaryCategories": ["FTMs", "Passing"]
+    },
+    {
+      "term": "Frankencock/Frankendick",
+      "definition": "An FTM's surgically created neo-penis.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/frankencock.webp"],
+      "relatedTerms": ["Neopenis"],
+      "secondaryCategories": ["FTMs"]
+    },
+    {
+      "term": "Full body phalloplasty",
+      "definition": "A humorous but grotesque fictional surgery often included in \"pooner\" art and memes. It typically depicts an FTM having their entire body replaced by one giant phallus with a head at its base.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/full body phalloplasty.webp"],
+      "relatedTerms": ["Pooner", "Poonerart"],
+      "secondaryCategories": ["FTMs"]
+    },
+    {
+      "term": "Neopenis",
+      "definition": "An FTM's surgically created neo-penis.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["SRS", "Frankencock/Frankendick"],
+      "secondaryCategories": ["FTMs"]
+    },
+    {
+      "term": "Neovag",
+      "definition": "A neovagina. A surgically constructed vagina.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["SRS", "Dilate"],
+      "secondaryCategories": ["MTFs"]
+    }
+  ]
+}

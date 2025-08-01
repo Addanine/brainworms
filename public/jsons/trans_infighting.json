@@ -1,0 +1,82 @@
+{
+  "category": "Trans Infighting",
+  "icon": "infighting.svg",
+  "description": "Terms related to conflicts and disagreements within trans communities",
+  "categoryImage": "infighting.webp",
+  "terms": [
+    {
+      "term": "Truscum",
+      "definition": "Short for \"True Transsexual Scum\", A trans person who believes that you need dysphoria to be trans or that transgenderism is a serious medical issue and should thus be treated as such. Truscums often hate people who hold beliefs such as gender being a social construct and xenogenders being valid.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/truscum.webp"],
+      "relatedTerms": [
+        "Trender / Transtrender",
+        "Trutrans",
+        "Tucute"
+      ]
+    },
+    {
+      "term": "Hugboxing",
+      "definition": "A pejorative term for affirming someone regardless of their appearance. Hugboxing is a type of Toxic Positivity, where negativity, criticism, or concern is not allowed, even when it is specifically requested by the subjects being discussed. Many trans people develop brainworms due to seeking more edgy communities out of a distaste for communities that hugbox.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/hugboxing.webp"],
+      "relatedTerms": ["Sneedhon", "Reddithon"]
+    },
+    {
+      "term": "Trender / Transtrender",
+      "definition": "A person accused of claiming a trans identity to be fashionable, rather than because they are actually transgender. They are often said to not experience any real discomfort with their assigned gender and often do not take active measures to pass as the gender they identify as. Xenogender people are also commonly accused of being trenders.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Trutrans"
+      ]
+    },
+    {
+      "term": "Trutrans",
+      "definition": "A person who believes themselves to be genuinely transgender in contrast to other people who are believed to be faking.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Trender / Transtrender",
+        "Truscum",
+        "Tucute"
+      ]
+    },
+    {
+      "term": "Tucute",
+      "definition": "Short for \"too cute to be cis\", a term used by truscum transmedicalists to imply any non-dysphoric or xenogender trans people aren't real trans people and are just identifying as trans to be \"cute\" or \"trendy.\" Usually applied to afab nonbinary people or non-transitioning trans men.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/tucute.webp"],
+      "relatedTerms": [
+        "Trender / Transtrender",
+        "Truscum",
+        "Trutrans"
+      ]
+    },
+    {
+      "term": "tenderqueer",
+      "definition": "An LGBT+ person with a gentle, sensitive, openly emotional disposition, particularly when cultivated as an insincere or self-serving affectation.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Tucute", "Theyfab"]
+    },
+    {
+      "term": "optics",
+      "definition": "The way in which behavior of individuals within the trans community affects our reputation from the perspective of cisnormies. For example, this very website is likely bad optics. In contrast, a socially acceptable and conventionally attractive actor such as Hunter Schafer receiving mainstream recognition, is likely good optics.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/optics.webp"],
+      "relatedTerms": ["Hunter", "Pass"]
+    },
+    {
+      "term": "Unclehon",
+      "definition": "A trans woman who distances herself from other trans people by adopting transphobic talking points and presenting herself as \"one of the good ones\" to gain acceptance from transphobes. The trans woman equivalent of an \"Uncle Tom.\" Often engages in respectability politics at the expense of other trans people.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Hon",
+        "Blanchtard",
+        "TERFmoder"
+      ]
+    }
+  ]
+}

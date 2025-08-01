@@ -1,0 +1,333 @@
+{
+  "category": "Passing",
+  "icon": "passing.svg",
+  "description": "Terms related to being perceived as cisgender and passing strategies",
+  "categoryImage": "passing.webp",
+  "terms": [
+    {
+      "term": "Pass",
+      "definition": "The ability or incidence of being regarded by others as a gender, or as cisgender, without needing to explicitly inform them.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/pass.webp"],
+      "relatedTerms": [
+        "Clock",
+        "Malefail",
+        "Passing",
+        "Passoid",
+        "Stealth"
+      ]
+    },
+    {
+      "term": "Anamaxxing",
+      "definition": "The practice of extreme weight loss with the goal of achieving a more androgynous or gender-conforming appearance. Similar to auschwitzmoding but may not reach the same dangerous extremes. Often associated with eating disorders and the harmful belief that thinness is essential for passing.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/anamaxxing.webp"],
+      "relatedTerms": [
+        "Auschwitzmoding",
+        "Trannerexia",
+        "Pass"
+      ]
+    },
+    {
+      "term": "Anglefrauding / Anglefagging",
+      "definition": "Using extreme angles within selfies and photographs to make yourself pass better than in real life.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Pass",
+        "Frauding"
+      ]
+    },
+    {
+      "term": "Auschwitzmoding",
+      "definition": "Being extremely skinny and underweight. It is often associated with eating disorders and trying to lose weight to pass better.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Anamaxxing",
+        "Pass",
+        "Trannerexia"
+      ],
+      "secondaryCategories": [
+        "Mental Illness & Suicide"
+      ]
+    },
+    {
+      "term": "BDD passoid",
+      "definition": "A trans person who passes as the gender they identify as but is convinced that they do not due to their Body Dysmorphic Disorder.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/bdd passoid.webp"],
+      "relatedTerms": [
+        "Pass",
+        "Passoid"
+      ]
+    },
+    {
+      "term": "Clock",
+      "definition": "To spot that somebody is transgender based upon their physical attributes such as appearance or voice.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/clock.webp"],
+      "relatedTerms": [
+        "Pass",
+        "Passing",
+        "Stealth"
+      ]
+    },
+    {
+      "term": "Dwarfmoding",
+      "definition": "This usually refers to FTMs that are embracing being a short hairy man as a helpful way to improve their passability.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Pass",
+        "Shotamoder",
+        "FTM"
+      ],
+      "secondaryCategories": ["FTMs"]
+    },
+    {
+      "term": "Elfmoding",
+      "definition": "This usually refers to MTFs that are embracing being a tall skinny woman as a helpful way to improve their passability.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/elfmoding.webp"],
+      "relatedTerms": [
+        "Pass",
+        "Negative androgyny",
+        "MTF",
+        "Hunter"
+      ],
+      "secondaryCategories": ["MTFs"]
+    },
+    {
+      "term": "Fatmaxxing",
+      "definition": "An MTF that deliberately gains weight to soften her bone structure and pass more effectively as a female. This can be a surprisingly helpful technique for certain people.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/fatmaxxing.webp"],
+      "relatedTerms": [
+        "Pass",
+        "Bloatmaxxing",
+        "Weight Cycling"
+      ],
+      "secondaryCategories": ["MTFs"]
+    },
+    {
+      "term": "Luckshit",
+      "definition": "A trans person with an unfair advantage in their passability due to good luck, genetics, finances, background, etc.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/luckshit.webp"],
+      "relatedTerms": [
+        "Pass",
+        "Youngshit"
+      ]
+    },
+    {
+      "term": "Malefail",
+      "definition": "The incidence of a trans woman being treated as a woman when presenting male in public.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/malefail.webp"],
+      "relatedTerms": [
+        "Pass",
+        "Girlmoder",
+        "Boymoder"
+      ],
+      "secondaryCategories": ["MTFs"]
+    },
+    {
+      "term": "Man in a dress",
+      "definition": "a common phrase for describing a non-passing transwoman.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/man in a dress.webp"],
+      "relatedTerms": [
+        "Hon",
+        "Pass"
+      ]
+    },
+    {
+      "term": "Mogging",
+      "definition": "When somebody makes another person look bad by being superior in terms of some physical attribute. For example, height-mogging would be being taller than a short person, especially a short person who is insecure about their height. Within 4tran culture, mogging usually refers to outpassing other trans people.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/mogs-me.webp"],
+      "relatedTerms": [
+        "Pass",
+        "Passoid",
+        "Heighthon",
+        "Luckshit"
+      ]
+    },
+    {
+      "term": "Passoid",
+      "definition": "a person who passes as the gender they have transitioned into.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/passoid.webp"],
+      "relatedTerms": [
+        "BDD passoid",
+        "Gigapassoid",
+        "Pass",
+        "Semipassoid"
+      ],
+      "secondaryCategories": ["General Trans"]
+    },
+    {
+      "term": "Stealth",
+      "definition": "The act of maintaining a lifestyle where no one knows that you are transgender and you are perceived exclusively as your transitioned self. Described by many as \"trading one closet for another\".",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Clock", "Deadname"],
+      "secondaryCategories": ["General Trans", "Mental Illness & Suicide"]
+    },
+    {
+      "term": "Sussymoder",
+      "definition": "A trans person who looks \"suspiciously\" trans instead of more definitively cis.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/sussymoder.webp"],
+      "relatedTerms": ["Clock", "Semipassoid"],
+      "secondaryCategories": ["Trans Infighting"]
+    },
+    {
+      "term": "Trannerexia",
+      "definition": "The tendency to starve one's self in order to be thin and passing as a trans person.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Anamaxxing",
+        "Auschwitzmoding",
+        "Pass"
+      ],
+      "secondaryCategories": [
+        "Mental Illness & Suicide"
+      ]
+    },
+    {
+      "term": "Weight Cycling",
+      "definition": "A technique used to accelerate fat redistribution while on hormones, involving cycles of gaining weight, then cutting weight, to add weight to the areas the hormones agonize, and remove weight from the areas hormones antagonize. Most notably used by trans women to promote breast growth.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Fatmaxxing"
+      ],
+      "secondaryCategories": [
+        "HRT"
+      ]
+    },
+    {
+      "term": "Semipassoid",
+      "definition": "A trans person who passes inconsistently or only in certain contexts, leading to mixed experiences of being gendered correctly.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Gigapassoid",
+        "Pass",
+        "Passoid"
+      ]
+    },
+    {
+      "term": "Sleevemoder",
+      "definition": "A trans person, typically a trans woman, who deliberately wears long sleeves or oversized sleeves to hide masculine arms, create a more feminine silhouette, or conceal features they're dysphoric about.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Hoodiemoder"
+      ],
+      "secondaryCategories": ["MTFs"]
+    },
+    {
+      "term": "Soulpassing",
+      "definition": "The concept of passing as one's gender identity through personality, mannerisms, interests, and general \"vibes\" rather than physical appearance. Often invoked when discussing whether someone's personality aligns with gendered stereotypes.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/soulpassing.webp"],
+      "relatedTerms": [
+        "Pass"
+      ]
+    },
+    {
+      "term": "Passhon",
+      "definition": "An MTF that passes as an ugly or unusual looking woman.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/passhon.webp"],
+      "relatedTerms": [
+        "Pass",
+        "Poonchad"
+      ],
+      "secondaryCategories": [
+        "MTFs"
+      ]
+    },
+    {
+      "term": "Gymmaxxing",
+      "definition": "The act of working out and using the gym in order to achieve transition goals, this is most commonly associated with FTMs who are looking to bulk up, but is also associated with MTFs looking to increase muscle mass in certain areas such as their butt in order to appear more feminine.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/gymmaxxing.webp"],
+      "relatedTerms": ["Fatmaxxing", "Bloatmaxxing"],
+      "secondaryCategories": [
+        "FTMs"
+      ]
+    },
+    {
+      "term": "Pitypassing",
+      "definition": "When a person does not pass as their gender, but is still gendered correctly by friends and strangers alike out of sheer pity or politeness.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Pass"
+      ]
+    },
+    {
+      "term": "Skinwalker",
+      "definition": "The act of copying and imitating a specific person's style, appearance, personality, etc, in one's pursuit of transition and passing. The term implies that this is done not out of simple admiration or inspiration, but from a desire to literally be the person who is being skinwalked.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "PhilosophyTube / TOOB / Tube"
+      ]
+    },
+    {
+      "term": "Gigapassoid",
+      "definition": "A trans person who passes exceptionally well as their identified gender, to the point where their trans status would be virtually undetectable.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/gigapassoid.webp"],
+      "relatedTerms": [
+        "Semipassoid",
+        "Passoid",
+        "Pass"
+      ],
+      "secondaryCategories": [
+        "Passing",
+        "MTFs",
+        "FTMs"
+      ]
+    },
+    {
+      "term": "Roachmaxxing",
+      "definition": "An FTM practice of deliberately maintaining poor hygiene under the belief that the filthier they become, the more easily they will be able to pass as male.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/roachmaxxing.webp"],
+      "relatedTerms": ["FTM", "Pass"],
+      "secondaryCategories": [
+        "FTMs",
+        "Mental Illness & Suicide"
+      ]
+    },
+    {
+      "term": "Effortmaxxing",
+      "definition": "The act of putting effort into moving forward with one's transition and passability instead of assuming that HRT will do all of the work. Effortmaxxers have much higher than average rates of succesful transitions than that of non effortmaxxing trans people.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/effortmaxxing.webp", "./Brainworms Glossary_files/images/effortmaxxing.jpg"],
+      "relatedTerms": [
+        "Pass",
+        "Gymmaxxing",
+        "Fatmaxxing"
+      ]
+    },
+    {
+      "term": "Clocky / Clockymoder",
+      "definition": "The state of being easily clockable or clocked, as in you only sometimes, partially, or mostly pass to strangers as your identified gender.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/clocky.webp"],
+      "relatedTerms": [
+        "Clock",
+        "Pass",
+        "Sussymoder"
+      ]
+    }
+  ]
+}

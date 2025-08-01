@@ -1,0 +1,184 @@
+{
+  "category": "General Trans",
+  "icon": "trans-gen.svg",
+  "description": "Gender-neutral transgender terminology that applies across different identities",
+  "categoryImage": "gender neutral trans.webp",
+  "terms": [
+    {
+      "term": "Trans",
+      "definition": "A more modern term that refers to anyone under the transgender, transsexual, transvestite, and nonbinary umbrellas. Intended to be a shorthand for the term transgender.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/trans.webp"],
+      "relatedTerms": ["Transgender", "Transsexual", "Transvestite"],
+      "secondaryCategories": []
+    },
+    {
+      "term": "Deadname",
+      "definition": "A person's birth-assigned name from pre-transition.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Stealth"],
+      "secondaryCategories": ["Passing"]
+    },
+    {
+      "term": "T4T",
+      "definition": "Trans for Trans. This refers to trans people seeking other trans people for dating or hook-up purposes. It can also refer to an attitude of general solidarity between trans people supporting each other.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/t4t.webp"],
+      "relatedTerms": ["ST4T"],
+      "secondaryCategories": ["Sexual Orientations"]
+    },
+    {
+      "term": "Tranner",
+      "definition": "A trans person, especially an MTF trans person. Originates from 4chan and typically refers to trans people from 4chan specifically, mimicking 4chan slang \"channer\".",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/tranner.webp"],
+      "relatedTerms": ["Tranny", "Troon"]
+    },
+    {
+      "term": "Transgender",
+      "definition": "Denoting or relating to a person whose gender identity does not correspond with the sex registered for them at birth.",
+      "isDefiningTerm": true,
+      "images": [],
+      "relatedTerms": [
+        "Transsexual",
+        "Transvestite"
+      ]
+    },
+    {
+      "term": "Transsexual",
+      "definition": "An older term for trans people coined by Magnus Hirschfeld, who first documented trans people in the West. Transsexual people experience a gender identity that is inconsistent with their assigned sex and desire to permanently transition to the sex with which they identify, seeking medical assistance to help them align their body with their identified sex or gender. Formerly used to refer to only trans people who pursued bottom surgery, currently used more flexibly to refer to anyone who medically transitions.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/transexuals.webp"],
+      "relatedTerms": [
+        "Transgender",
+        "Transvestite"
+      ],
+      "secondaryCategories": ["HRT", "Gender Affirming Surgeries"]
+    },
+    {
+      "term": "Transvestite",
+      "definition": "Transvestism is the practice of dressing in a manner traditionally associated with the opposite sex. An older term for trans people coined by Magnus Hirschfeld, to distinguish between Transsexuals, who were interested in pursuing bottom surgery and medical transition, and those who merely dressed up as the opposite sex. Transsexualism was used to refer to those who were interested in the sex of the opposite gender, and transvestism was used to refer to interest in the clothes of the opposite gender. Many people formerly considered Transvestites did identify as the opposite gender, and did undergo hormone replacement therapy. The term Transgender was later coined to bridge the gap in the community in order to refer to everyone who identified as the opposite gender, rather than separating between sex and clothes.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Transgender",
+        "Transsexual"
+      ]
+    },
+    {
+      "term": "Troon",
+      "definition": "Transgender Goon. A slur used for transgender people originating from Something Awful, but now largely used by the Kiwifarms and Lolcow communities.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/troon.webp"],
+      "relatedTerms": ["Tranner", "Tranny", "Trooning out"]
+    },
+    {
+      "term": "Trooning out",
+      "definition": "The act of becoming trans, publically starting your transition, and irreversibly realizing you are trans. Carries the connotation that doing such is shameful, or that the trans person lacked agency in their realization.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/trooning out.webp"],
+      "relatedTerms": ["Troon", "Egg"]
+    },
+    {
+      "term": "Transmaxxing",
+      "definition": "An incel term that describes the act of transitioning from male to female in order to improve their perceived sexual appeal, despite not actually identifying as female.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Repper / Repressor", "Chasers"],
+      "secondaryCategories": [
+        "Cissies"
+      ]
+    },
+    {
+      "term": "Tranny",
+      "definition": "A slur used against trans people (particularly transwomen) by transphobes. It is increasingly reclaimed by the trans community, as many trans people now frequently refer to themselves and each other as trannies.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/tranny.webp"],
+      "relatedTerms": ["Tranner", "Troon", "T-slur", "T-slur pass"]
+    },
+    {
+      "term": "T-slur pass",
+      "definition": "The social permission to say the word tranny without being considered as transphobic. T-slur pass is a direct reference to the term N-word pass. Implying that Tranny is the N-word of trans people, as in, we are entitled to use it amongst ourselves, and those using it against us are transphobic.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["T-slur", "Tranny"]
+    },
+    {
+      "term": "T-slur",
+      "definition": "The transgender equivalent of saying \"N-word\", with the slur itself being Tranny.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["T-slur pass", "Tranny", "🚂🦵"]
+    },
+    {
+      "term": "🚂🦵",
+      "definition": "Algospeak for Tranny to avoid social media bans. 🚂Train 🦵Knee",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/🚂🦵.webp"],
+      "relatedTerms": ["T-slur", "Tranny"]
+    },
+    {
+      "term": "🚬🐐",
+      "definition": "Algospeak for Faggot to avoid social media bans. 🚬Fag (British for cigarette) 🐐Goat",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Faggot"]
+    },
+    {
+      "term": "Fembrained",
+      "definition": "The state of having a feminine brain, personality, and mannerisms. This is a compliment for MTFs and an insult for FTMs.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/fembrained.webp"],
+      "relatedTerms": [
+        "Malebrained"
+      ],
+      "secondaryCategories": [
+        "MTFs",
+        "FTMs",
+        "Trans Infighting"
+      ]
+    },
+    {
+      "term": "Malebrained",
+      "definition": "The state of having a masculine brain, personality, and mannerisms. This is a compliment for FTMs and an insult for MTFs.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/malebrained.webp"],
+      "relatedTerms": [
+        "Fembrained"
+      ],
+      "secondaryCategories": [
+        "MTFs",
+        "FTMs",
+        "Trans Infighting"
+      ]
+    },
+    {
+      "term": "Location Maxxing",
+      "definition": "The act of moving to a region or city which is more accepting of trans people in order to avoid discrimination and the possibility of being hatecrimed.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Getting hatecrimed",
+        "Pass"
+      ],
+      "secondaryCategories": [
+        "Cissies"
+      ]
+    },
+    {
+      "term": "Gender Dysphoria",
+      "definition": "A feeling of distress or \"wrongness\" due to the contrast between a person's internal sense of their gender and their appearance, self-perception, or treatment by others. This feeling is often a primary catalyst for \"trooning out.\" While transition can help alleviate gender dysphoria, a \"BDD passoid\" may continue to feel some level of gender dysphoria forever no matter how well they pass.",
+      "isDefiningTerm": false,
+      "relatedTerms": ["Gender Euphoria", "Trooning out", "BDD Passoid", "Dysphoria"],
+      "secondaryCategories": ["Mental Illness & Suicide"]
+    },
+    {
+      "term": "Gender Euphoria",
+      "definition": "A feeling of euphoria caused by a transperson's appearance, self-perception, or treatment by others being in alignment with their gender identity, particularly in early transition. The opposite of \"gender dysphoria.\"",
+      "isDefiningTerm": false,
+      "relatedTerms": ["Gender Dysphoria", "Euphoria Boner", "Transition"],
+      "secondaryCategories": ["MTFs", "FTMs"]
+    }
+  ]
+}

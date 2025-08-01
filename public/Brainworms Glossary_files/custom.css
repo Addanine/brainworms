@@ -1,0 +1,539 @@
+.boardTitle {
+  white-space: normal !important;
+  word-wrap: break-word;
+  word-break: normal; /* Changed from break-word to prevent mid-word breaks */
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  overflow-wrap: break-word;
+}
+
+/* Banner styles moved to fixes.css for better organization */
+
+/* Removed - now handled by post-name-prominent and post-name-regular classes */
+
+/* Make thread titles bigger */
+div.post.op div.postInfo span.subject {
+  font-size: 1.2em;
+}
+
+/* Add vertical padding to hr elements in post messages */
+.postMessage hr {
+  margin: 2em 0;
+}
+
+/* Less padding for hr elements on the JSON homepage */
+#dynamicContent .postMessage hr {
+  margin: 0.8em 0;
+}
+
+/* Add more vertical spacing between posts */
+.postContainer {
+  margin-bottom: 1.5em;
+  margin-right: 10px;
+}
+
+/* Less spacing on category pages (dynamicContent contains category posts) */
+#dynamicContent .postContainer {
+  margin-bottom: 1em;
+}
+
+/* Keep all links the same color regardless of visited state */
+a:visited {
+  color: inherit;
+}
+
+/* Ensure quote links stay consistent */
+.quotelink:visited {
+  color: #d00 !important;
+}
+
+/* Keep term and category links consistent */
+.term-link:visited,
+.category-link:visited {
+  color: inherit;
+}
+
+/* Add vertical spacing after green term names */
+.quote {
+  margin-bottom: 0.5em;
+  display: inline-block;
+}
+
+/* Limit content width on wide screens */
+@media (min-width: 768px) {
+  .board {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Underline all links to show they're clickable */
+a {
+  text-decoration: underline !important;
+}
+
+/* Keep specific link colors unchanged */
+.quote a,
+.quote a:visited {
+  color: inherit;
+  text-decoration: underline !important;
+}
+
+.subject a,
+.subject a:visited {
+  color: inherit;
+  text-decoration: underline !important;
+}
+
+/* Ensure term and category links are underlined */
+.term-link,
+.term-link:visited,
+.category-link,
+.category-link:visited {
+  text-decoration: underline !important;
+}
+
+/* Hide navigation links below banner and dividing lines */
+.navLinks.desktop,
+.navLinks.navLinksBot.desktop,
+hr#op,
+hr#op + .navLinks + hr {
+  display: none;
+}
+
+/* Add padding below title on category/term pages */
+.boardTitle {
+  padding-top: 15px;  /* Add 15px spacing between banner and title */
+  padding-bottom: 1em;
+  border-bottom: 1px solid #b7c5d9;
+  margin-bottom: 1em;
+}
+
+/* Simple consistent image margins */
+.fileThumb {
+  margin-bottom: 3px !important; /* Space between image and file metadata */
+}
+
+/* Ensure text has minimum width - if not enough space, it flows below image */
+.postMessage {
+  min-width: 250px; /* Minimum readable width for text */
+}
+
+/* Reset padding for posts without images */
+#dynamicContent .post.reply:not(:has(.file)) .postMessage {
+  padding: 0; /* No padding for text-only posts */
+}
+
+/* Ensure reply posts use full available width so text wraps consistently even when an image is floated to the left */
+div.reply {
+  display: inline-block !important; /* Shrink-wrap to content when no image present */
+  max-width: 100%; /* Prevent overflow */
+}
+
+/* Fix text wrapping on dynamic pages - Final solution with proper vertical alignment */
+#dynamicContent .post.reply {
+  display: inline-block !important; /* Keep shrink-wrap for all posts */
+}
+
+/* For posts with images, use float layout with BFC for proper text flow */
+#dynamicContent .post.reply:has(.file) .file {
+  float: left;
+  margin-right: 0; /* Remove margin */
+  padding-right: 10px; /* Use padding instead for spacing */
+}
+
+#dynamicContent .post.reply:has(.file) .postMessage {
+  overflow: hidden; /* Create BFC to prevent text wrapping under image */
+  display: block;
+  margin: 0;
+  padding: 25px 15px 0 0; /* Top padding aligns text with image, right padding for edge space */
+}
+
+/* Default size for fileThumb images - unexpanded state */
+@media (min-width: 481px) {
+  .fileThumb img {
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+  }
+}
+
+/* Mobile behavior for posts with images */
+@media only screen and (max-width: 480px) {
+  #dynamicContent .post.reply:has(.file) .file {
+    float: none; /* Remove float on mobile */
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  
+  #dynamicContent .post.reply:has(.file) .postMessage {
+    display: block;
+    overflow: visible; /* Reset overflow on mobile */
+  }
+}
+
+/* Make images responsive on smaller screens */
+@media only screen and (max-width: 480px) {
+  /* Apply box-sizing to all elements for predictable sizing */
+  *, *::before, *::after {
+    box-sizing: border-box !important;
+  }
+  
+  /* Fix body and html to prevent overflow */
+  html, body {
+    overflow-x: hidden !important;
+    max-width: 100% !important;
+  }
+  
+  /* Remove horizontal margins from post containers */
+  .postContainer {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Allow file text to wrap */
+  .fileText {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    max-width: 100% !important;
+  }
+  
+  .fileThumb img,
+  div.post div.file .fileThumb img {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    max-height: none !important;
+  }
+  
+  /* Mobile behavior - text flows below images */
+  div.post div.file .fileThumb,
+  div.replyContainer div.post div.file .fileThumb {
+    float: none !important; /* Remove float on mobile */
+    display: block !important;
+    margin: 0 0 5px 0 !important; /* Reduced bottom margin from 15px to 5px */
+    padding: 5px 5px 0 5px !important; /* 5px top/left/right, 0px bottom */
+  }
+  
+  /* Reset file container margins and padding for mobile */
+  div.file {
+    text-align: center !important; /* Centers the fileThumb block */
+    margin: 0 !important; /* Reset any inherited margins */
+    padding: 0 !important; /* Reset any inherited padding */
+  }
+  
+  div.file .fileText {
+    text-align: center !important; /* Center file information in mobile */
+    padding: 0 10px !important; /* Add small horizontal padding for text */
+    margin-bottom: 10px !important; /* Add spacing below file metadata */
+  }
+  
+  .postMessage {
+    clear: both; /* Ensure text starts below image */
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+  
+  /* Override board container width */
+  .board {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+  }
+  
+  /* Ensure posts don't have margins that push content off screen */
+  div.post {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  /* Fix reply containers */
+  div.reply {
+    max-width: 100% !important;
+    word-wrap: break-word !important;
+  }
+  
+  /* Prevent any element from being wider than viewport */
+  .thread, .opContainer, .replyContainer, .post, .reply {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+  
+  /* Adjust hr margins in mobile view - add space above and below */
+  .postMessage hr {
+    margin: 30px 0 !important;
+    padding: 0 !important;
+  }
+  
+  /* Remove top spacing on postMessage to bring content closer to images */
+  /* Add horizontal padding for better text readability */
+  .postMessage {
+    margin-top: 0 !important;
+    padding: 0 20px !important; /* 20px padding on left and right */
+  }
+  
+  /* Override more specific selectors for dynamicContent posts */
+  #dynamicContent .post.reply .postMessage,
+  #dynamicContent .post.reply:has(.file) .postMessage,
+  #dynamicContent .post.reply:not(:has(.file)) .postMessage {
+    padding: 0 20px !important; /* Consistent horizontal padding for all posts */
+  }
+  
+  /* Add margins to blockquote elements directly */
+  blockquote.postMessage {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+  
+  /* Fix opContainer display to allow centering */
+  div.opContainer {
+    display: block !important;  /* Override inline display */
+    overflow: visible !important;
+  }
+  
+  /* Also ensure the op div itself is block */
+  div.op {
+    display: block !important;  /* Override inline display */
+  }
+  
+  /* OP post mobile styling - match reply post spacing */
+  /* Override desktop float rules */
+  .post.op .file .fileThumb,
+  div.post.op div.file .fileThumb {
+    float: none !important;
+    display: inline-block !important;  /* Changed from block to inline-block */
+    margin: 0 0 5px 0 !important;
+    padding: 5px 5px 0 5px !important; /* 5px top/left/right, 0px bottom */
+  }
+  
+  /* Override desktop file rules */
+  .post.op .file,
+  div.post.op div.file {
+    float: none !important;  /* Override desktop float: left */
+    text-align: center !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .post.op .file .fileText,
+  div.post.op div.file .fileText {
+    text-align: center !important;
+    padding: 0 10px !important;
+    margin-bottom: 10px !important; /* Add spacing below file metadata */
+  }
+  
+  /* Ensure images maintain their natural size */
+  .post.op .file .fileThumb img,
+  div.post.op div.file .fileThumb img {
+    width: auto !important;  /* Let image be its natural width */
+    height: auto !important;
+    display: block !important;
+  }
+  
+  /* Override desktop postMessage margin: 0 */
+  .post.op .postMessage,
+  div.post.op .postMessage {
+    margin-top: 0 !important;
+    clear: both !important;
+  }
+  
+  /* Add same blockquote margins for OP posts */
+  .post.op blockquote.postMessage,
+  div.post.op blockquote.postMessage {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+  
+  /* Make index link cards shrink to content in mobile */
+  /* Target the index posts specifically */
+  .post.reply:has(.index-links) {
+    display: inline-block !important;
+    width: auto !important;
+    max-width: 100% !important;
+  }
+  
+  /* Ensure the links don't wrap - MUST BE LAST to override other rules */
+  blockquote.postMessage.index-links {
+    white-space: nowrap !important;
+    overflow-x: auto !important; /* Allow horizontal scroll if needed */
+    text-align: left !important; /* Ensure text is left-aligned */
+    /* Use same horizontal spacing as other posts - inherit the standard blockquote margins */
+  }
+  
+  /* Specific rule for main page index card - removed to maintain consistency */
+  
+  /* Prevent aggressive word breaking - only break between words */
+  * {
+    word-break: normal !important;
+  }
+}
+
+/* Expanded state when zoom class is applied */
+.fileThumb img.zoom {
+  max-width: calc(100% - 40px); /* Account for fileThumb's left/right margins (20px each) */
+  height: auto;
+  max-height: none;
+}
+
+/* Add padding to dynamicContent to match page-content appearance */
+#dynamicContent {
+  padding: 0 15px;
+}
+
+/* Also add padding to page-content for consistency */
+.page-content {
+  padding: 0 15px;
+}
+
+/* Limit boardTitle divider width on wide screens */
+@media (min-width: 768px) {
+  .boardTitle {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Remove post box styling from intro posts on category pages */
+#dynamicContent .postContainer.opContainer {
+  margin-bottom: 1em;
+}
+
+#dynamicContent .postContainer.opContainer .post.op {
+  background: none;
+  border: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+/* Allow text to wrap around image in OP posts on main page */
+.post.op .file {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.post.op .postMessage {
+  overflow: visible !important; /* Override BFC to allow text wrapping */
+  display: block;
+  margin: 0;
+}
+
+/* Allow text to wrap around images in main page (index) posts only */
+body:not(.has-hash) #dynamicContent .post.reply:has(.file) .postMessage {
+  overflow: visible !important; /* Allow text to wrap around floated image */
+  /* padding-left handled by default rules now */
+}
+
+/* Hide intro and index posts when page has hash - controlled by JavaScript */
+body.has-hash #lgbt\.1,
+html.has-hash-early #lgbt\.1,
+body.has-hash #lgbt\.2,
+html.has-hash-early #lgbt\.2 {
+  display: none !important;
+}
+
+/* Loading indicator styles */
+.loading-indicator {
+  text-align: center;
+  padding: 40px 20px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Rotating circle loader */
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #d6daf0;
+  border-top: 4px solid #34345C;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+.loading-text {
+  color: #34345C;
+  font-size: 14px;
+  font-style: italic;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Fade in animation for content - modified to prevent snap-back */
+@keyframes fadeIn {
+  from {
+    opacity: 0.8;  /* Start at 80% opacity instead of 0 to prevent complete invisibility */
+    transform: translateY(5px);  /* Reduced movement */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply fade in to dynamic content with animation-fill-mode to prevent flash */
+#dynamicContent.loaded > * {
+  animation: fadeIn 0.2s ease-out;  /* Shorter duration */
+  animation-fill-mode: backwards;  /* Apply the 'from' state before animation starts */
+}
+
+/* Gallery caption styling - use same background as posts */
+.gallery-caption {
+  background: #d6daf0 !important;
+}
+
+/* Prevent gallery reflow during navigation */
+.gallery-container {
+  will-change: opacity;
+}
+
+/* Disable pointer events during navigation to prevent hover states */
+body.navigating .gallery-item {
+  pointer-events: none !important;
+  transition: none !important;
+}
+
+/* WARNING text styling */
+.warning {
+  color: #d00;
+  font-weight: bold;
+  font-size: 1.1em;
+  display: block;
+  margin-bottom: 1em;
+}
+
+/* Sticky menu navigation layout */
+#custom-board-list {
+  display: flex !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+  align-items: center !important;
+}
+
+.nav-left, .nav-right {
+  display: inline-block;
+}
+
+/* Two-category text sizing system for consistent post headers */
+div.post div.postInfo span.nameBlock span.name.post-name-prominent {
+  font-size: 20px !important;
+}
+
+div.post div.postInfo span.nameBlock span.name.post-name-regular {
+  font-size: 16px !important;
+}
+
+

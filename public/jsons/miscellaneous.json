@@ -1,0 +1,66 @@
+{
+  "category": "Miscellaneous",
+  "icon": "misc.svg",
+  "description": "Various terms that don't fit neatly into other categories",
+  "categoryImage": "misc.webp",
+  "terms": [
+    {
+      "term": "Pipeline",
+      "definition": "A social structure that conveys people toward certain viewpoints. Used jokingly to imply that there is some sort of social structure that influenced a transition from any starting identity to any endpoint identity. Ie. \"country boy to emo girl pipeline\".",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/pipeline.webp"],
+      "relatedTerms": ["TERF pipeline"]
+    },
+    {
+      "term": "Bloatmaxxing",
+      "definition": "A physical appearance within bodybuilding that involves a mixture of being both simultaneously fat and muscular.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Fatmaxxing", "Gymmaxxing"]
+    },
+    {
+      "term": "Bara",
+      "definition": "A Japanese term for a genre of art that focuses on men loving men usually created by gay men for a gay audience. Usually implied to be masculine muscled men.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["Fujoshi"]
+    },
+    {
+      "term": "Malding",
+      "definition": "Malding is a combination of \"mad\" and \"balding\" to refer to someone who gets so mad that they start balding.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": []
+    },
+    {
+      "term": "Sneed",
+      "definition": "A reference to a joke in a Simpsons episode. It is also used as a stand-in for the word seethe.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/sneed.webp"],
+      "relatedTerms": ["Sneedhon"]
+    },
+    {
+      "term": "Snoymoder",
+      "definition": "A nonsense term with no consensus meaning. It is commonly used to deliberately confuse people in a humorous manner.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": []
+    },
+    {
+      "term": "Fagslop",
+      "definition": "Erotic fiction created by and for users of /tttt/, typically featuring trans characters and often containing self-deprecating or fetishistic elements common to that community.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": ["🚬🐐", "Faggot"],
+      "secondaryCategories": ["Random Cultural Stuff"]
+    },
+    {
+      "term": "Wormy",
+      "definition": "The act of thinking, talking, or behaving in a manner that is riddled with brainworms. \"She is being wormy.\" \"This community is wormy.\"",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/wormy.webp"],
+      "relatedTerms": ["Brainworms"],
+      "secondaryCategories": ["Mental Illness & Suicide"]
+    }
+  ]
+}

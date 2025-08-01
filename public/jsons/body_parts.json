@@ -1,0 +1,276 @@
+{
+  "category": "Body Parts",
+  "icon": "bodyparts.svg",
+  "description": "Terms related to physical anatomy and body measurements relevant to trans people",
+  "categoryImage": "bodyparts.webp",
+  "terms": [
+    {
+      "term": "Sexual dimorphism",
+      "definition": "In trans contexts, refers to the biological differences between typical male and female bodies that often become a source of dysphoria and passing anxiety. Frequently discussed in relation to bone structure, fat distribution, and other sex-differentiated traits.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/sexual dimorphism.webp"],
+      "relatedTerms": [
+        "Pass",
+        "Clock",
+        "Digit ratio",
+        "Gonial angle"
+      ],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Bideltoid width",
+      "definition": "The widest part of your shoulders including muscle. AMABs average 21.5 inches (54.6 cm) while AFABs average 18.4 inches (46.8 cm), meaning AMAB shoulders are about 17% wider when measuring the full muscular width.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Shoulderhon",
+        "Biacromial width",
+        "Shoulderpilled"
+      ]
+    },
+    {
+      "term": "Biacromial width",
+      "definition": "The distance between the bony points at the top of your shoulder blades. AMABs average 16.2 inches (41.1 cm) while AFABs average 14.4 inches (36.7 cm), meaning AMAB shoulders are about 12% wider at the bone.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Shoulderhon",
+        "Bideltoid width",
+        "Shoulderpilled"
+      ]
+    },
+    {
+      "term": "Canthal tilt",
+      "definition": "This refers to the angle of a person's eyes. According to incel culture, a negative canthal tilt is an extremely unattractive feature on men, as it looks droopy and unintimidating.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Sanpaku"
+      ]
+    },
+    {
+      "term": "Conetits",
+      "definition": "The small conical/tubular shaped breasts that many trans women develop as a result of their breast growth getting stuck at the earlier stages of development and not fully rounding out.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "E",
+        "Prog"
+      ],
+      "secondaryCategories": [
+        "HRT",
+        "MTFs"
+      ]
+    },
+    {
+      "term": "Digit ratio",
+      "definition": "The amount of length difference between your middle and ring finger. This is supposedly affected by fetal exposure to hormones, particularly testosterone and other androgens. It is also said to correlate with gayness and gender identity.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Sexual dimorphism"
+      ]
+    },
+    {
+      "term": "Facial planes",
+      "definition": "A measurement of the bony profile of the face. This term is typically used in the context of referring to whether or not the structure of a person's face is masculine or feminine.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "FWHR",
+        "Midface",
+        "FFS"
+      ]
+    },
+    {
+      "term": "FWHR",
+      "definition": "Facial width to height ratio, a measure derived from archaeological skull measurements. FWHR may be linked with adolescent testosterone.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Facial planes",
+        "Gonial angle"
+      ]
+    },
+    {
+      "term": "Girlcock",
+      "definition": "A tongue-in-cheek name for the penis of a trans woman. Also referred to as \"gock\" or \"girldick\".",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/gock.webp"],
+      "relatedTerms": [
+        "Gridlock",
+        "GAMP"
+      ],
+      "secondaryCategories": [
+        "MTFs"
+      ]
+    },
+    {
+      "term": "Gonial angle",
+      "definition": "The angle of the bottom outer edge of a person's jaw bone when viewed from the side. It is said to be within 128\u00b0 +/- 2.36\u00b0 for males and 126\u00b0 +/-2.41\u00b0 for females.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "FWHR",
+        "Sexual dimorphism"
+      ]
+    },
+    {
+      "term": "Gridlock",
+      "definition": "A word that many trans women easily mistake for \"girldick\".",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/gridlock.webp"],
+      "relatedTerms": [
+        "Girlcock"
+      ],
+      "secondaryCategories": [
+        "MTFs"
+      ]
+    },
+    {
+      "term": "Midface",
+      "definition": "Shorthand for the section of face spanning from the mouth to the eyes. A shorter midface appears more feminine, and a longer one is more masculine. Among 4tranners, this is said to be extremely important for passing to the point that a person is doomed if they do not have the right shaped midface. The midface is extremely expensive and painful to adjust with surgery, even among gender-affirming facial surgeries.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/midface.webp"],
+      "relatedTerms": [
+        "Facial planes",
+        "FFS",
+        "Philtrum length"
+      ]
+    },
+    {
+      "term": "Nasolabel angle",
+      "definition": "A term used by cosmetic surgeons in the context of rhinoplasties that has no majority consensus definition, it is generally used as a proxy for tip rotation and denotes the angle between the nasal base and the upper lip. The most aesthetic female nasolabial angle is said to be 104.9\u00b14.0 degrees. The most aesthetic male nasolabial angle is said to be 97.0\u00b16.3 degrees.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "FWHR",
+        "Sexual dimorphism"
+      ]
+    },
+    {
+      "term": "Norwood scale",
+      "definition": "The Norwood scale (or Hamilton-Norwood scale) is the leading classification system used to measure the extent of male pattern baldness.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/norwood scale.webp"],
+      "relatedTerms": [
+        "FWHR",
+        "Sexual dimorphism"
+      ],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Peener",
+      "definition": "A penis.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "FWHR",
+        "Sexual dimorphism"
+      ]
+    },
+    {
+      "term": "Philtrum length",
+      "definition": "The length of the vertical indentation in the middle area of the upper lip. The average philtrum length for males is between 11 and 15 mm, while for females it is 11-13mm.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "FWHR",
+        "Sexual dimorphism"
+      ],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Q-angle",
+      "definition": "The angle formed by a line drawn from the ASIS to central patella and a second line drawn from central patella to tibial tubercle. This essentially measures how much a person's upper legs diagonally lean inwards from their hips. Normally, the Q angle is 14 deg for males and 17 deg for females.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/q angle.webp"],
+      "relatedTerms": [
+        "FWHR",
+        "Sexual dimorphism"
+      ]
+    },
+    {
+      "term": "Radial Spacing of Pores",
+      "definition": "An esoteric means of clocking trans people by looking at the spacing of their pores. AFAB individuals supposedly have evenly spaced pores, whereas AMAB individuals supposedly have diamond-shaped spacing.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": []
+    },
+    {
+      "term": "Sanpaku",
+      "definition": "A Japanese term that refers to being able to see the full white of a person's eyes either above or below the iris.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "FWHR",
+        "Sexual dimorphism"
+      ]
+    },
+    {
+      "term": "AGPcurls",
+      "definition": "The curly hair that many AGPs supposedly have in disproportionate numbers compared to that of the non-AGP population.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [],
+      "secondaryCategories": [
+        "Blanchard"
+      ]
+    },
+    {
+      "term": "Anogenital distance",
+      "definition": "The distance between a person's anus and genitals. This is significantly shorter on AFABs over AMABs.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Sexual dimorphism"
+      ]
+    },
+    {
+      "term": "Gungular / Gungoy",
+      "definition": "A seemingly nonsense body part term used in conversation to confuse people who are not in on the joke.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": []
+    },
+    {
+      "term": "Self harm Scars",
+      "definition": "The self inflicted scars often found on a trans person's body due to the years of the mental instability and self hatred that gender dysphoria causes.",
+      "isDefiningTerm": false,
+      "images": ["./Brainworms Glossary_files/images/self harm scars.webp"],
+      "relatedTerms": [
+        "Dysphoria",
+        "Brainworms"
+      ],
+      "secondaryCategories": [
+        "Mental Illness & Suicide"
+      ]
+    },
+    {
+      "term": "Physiognomy",
+      "definition": "The situation of distinctly having the phenotype, or general appearance of a certain class or type of person. For example, \"theyfab physiognomy\" would refer to someone who looks like a stereotypical theyfab, regardless of identity, implying that they were born for this role.",
+      "isDefiningTerm": false,
+      "images": [],
+      "relatedTerms": [
+        "Sexual dimorphism",
+        "Theyfab"
+      ],
+      "secondaryCategories": [
+        "Passing"
+      ]
+    },
+    {
+      "term": "Poon",
+      "definition": "Common prefix (or suffix) for derogatory terms for trans men which refers to AFAB genitalia.",
+      "isDefiningTerm": false,
+      "relatedTerms": ["Pooner", "Pooning out", "FTM"],
+      "secondaryCategories": ["FTMs"]
+    }
+  ]
+}

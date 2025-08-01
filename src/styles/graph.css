@@ -1,0 +1,34 @@
+/* src/styles/graph.css */
+
+/* Override board max-width for graph page */
+body:has(.graph-container) .board {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+body:has(.graph-container) .thread {
+    width: 100% !important;
+}
+
+.graph-container {
+    width: 90%;
+    margin: 0 auto;
+    height: calc(100vh - 120px);
+    position: relative;
+    background-color: transparent;
+    min-height: 500px;
+    display: block;
+}
+
+.graph-container canvas {
+    background-color: transparent !important;
+}
+
+.loading-container, .error-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 1.2em;
+    color: #fff;
+}
